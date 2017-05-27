@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"bundle.css","sourceRoot":""}
+{"version":3,"sources":["webpack:///webpack:///style.scss"],"names":[],"mappings":"AAAA;EACE,mBAAmB,EAAE;EACrB;IACE,kBAAkB,EAAE","file":"bundle.css","sourcesContent":[".color {\n  background: orange; }\n  .color div {\n    background: black; }\n\n\n\n// WEBPACK FOOTER //\n// webpack:///style.scss"],"sourceRoot":""}

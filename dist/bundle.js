@@ -90,7 +90,12 @@
 	        _react2.default.createElement(
 	          'h1',
 	          { className: _style2.default.color },
-	          'Heloo from App'
+	          'Heloo from App',
+	          _react2.default.createElement(
+	            'div',
+	            null,
+	            '123'
+	          )
 	        ),
 	        _react2.default.createElement(_index2.default, null)
 	      );
@@ -21921,7 +21926,7 @@
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"color":"style__color___2xT4s"};
+	module.exports = {"color":"style__color___1Cxju"};
 
 /***/ })
 /******/ ]);
