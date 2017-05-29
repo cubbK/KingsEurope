@@ -1,6 +1,29 @@
-.style__color___1Cxju {
-  background: orange; }
-  .style__color___1Cxju div {
-    background: black; }
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);.styles__personZone___1mfpM {
+  width: 1170px;
+  margin: 0 auto; }
+
+.styles__upperPart___1IMS- {
+  display: flex; }
+
+.styles__mainInfo___12Tu8 {
+  flex-grow: 2; }
+
+.styles__photos___1WUCe {
+  flex-grow: 1; }
+
+.styles__title___2WkjY {
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0; }
+
+main {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./img/bg.png);
+  background-size: cover; }
 
 /*# sourceMappingURL=bundle.css.map*/

@@ -23,11 +23,12 @@ module.exports = {
 			},
 			{
 				test: /\.scss/,
+				//exclude: /\rules.scss$/, not working, 
 				loader: ExtractTextPlugin.extract('css?sourceMap&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!sass'),
 			},
 			{
 				test: /\.(png|jpg)$/,
-				use: 'file-loader?name=/img/[name].[ext]&publicPath=.',
+				loader: 'file-loader?name=/img/[name].[ext]&publicPath=.',
 			}
 		]
 	},

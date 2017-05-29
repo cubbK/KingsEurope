@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Main from './scenes/Main/index.jsx';
-import styles from './style.scss';
+import Person from './scenes/Person/index.jsx';
+import rules from './styles.scss';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <h1 className={styles.color}>Heloo from App
-          <div>123</div>
-        </h1>
-        <Main />
-      </div>
+      <MuiThemeProvider>
+        <main>
+          <Person />          
+        </main>
+      </MuiThemeProvider>
     );
   }
 }
