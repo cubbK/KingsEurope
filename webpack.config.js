@@ -11,6 +11,12 @@ module.exports = {
 		path: buildPath,
 		filename: "bundle.js",
 	},
+	node: {
+		fs: 'empty',
+		net: 'empty',
+		tls: 'empty',
+		dns: 'empty'
+	},
 	module: {
 		loaders: [
 			{
@@ -29,6 +35,10 @@ module.exports = {
 			{
 				test: /\.(png|jpg)$/,
 				loader: 'file-loader?name=/img/[name].[ext]&publicPath=.',
+			},
+			{
+				test: /\.json$/,
+				loader: 'json-loader'
 			}
 		]
 	},

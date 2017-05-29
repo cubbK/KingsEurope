@@ -3,21 +3,23 @@ import styles from './styles.scss';
 import RaisedButton from 'material-ui/RaisedButton';
 import Paper from 'material-ui/Paper';
 
+import InfoList from './InfoList/index.jsx';
+
 export default class Person extends React.Component {
+    wiki() {
+        
+        return "123";
+    }
     render() {
         return (
             <div className={styles.personZone}>
-
                 <div className={styles.upperPart}>
                     <Paper zDepth={3} className={styles.mainInfo}>
                         <h1 className={styles.title}>
                             Sigismund III Vasa
                         </h1>
-                        <ul className={styles.infoList}>
-                            <li>
-
-                            </li>
-                        </ul>
+                        <InfoList/>
+                        {this.wiki()}
                     </Paper>
                     <div className={styles.photos}>2</div>
                 </div>

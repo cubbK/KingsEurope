@@ -6,7 +6,8 @@
   display: flex; }
 
 .styles__mainInfo___12Tu8 {
-  flex-grow: 2; }
+  flex-grow: 2;
+  padding: 0 20px 10px; }
 
 .styles__photos___1WUCe {
   flex-grow: 1; }
