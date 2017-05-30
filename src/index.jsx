@@ -10,7 +10,7 @@ class App extends React.Component {
     return (
       <MuiThemeProvider>
         <main>
-          <Person />          
+          <Main />          
         </main>
       </MuiThemeProvider>
     );
