@@ -19,13 +19,6 @@ export default class Main extends React.Component {
         });
     }
 
-    async fetchWiki(name) {
-        const searchResults = await wiki().search(name);
-        const foundName = await searchResults.results[0];
-        const data = await wiki().page(foundName);
-        return data;
-    }
-
     async componentDidMount() {
         let dataList = []
         for (let i = 0; i < this.names.length; i++) {
@@ -33,6 +26,13 @@ export default class Main extends React.Component {
             dataList.push(data);
         }
         await this.setStateAsync({ data: dataList });
+    }
+
+    async fetchWiki(name) {
+        const searchResults = await wiki().search(name);
+        const foundName = await searchResults.results[0];
+        const data = await wiki().page(foundName);
+        return data;
     }
 
     showCards() {

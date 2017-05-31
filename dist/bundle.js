@@ -29955,32 +29955,41 @@
 	            });
 	        }
 	    }, {
-	        key: 'fetchWiki',
+	        key: 'componentDidMount',
 	        value: function () {
-	            var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(name) {
-	                var searchResults, foundName, data;
+	            var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+	                var dataList, i, data;
 	                return regeneratorRuntime.wrap(function _callee$(_context) {
 	                    while (1) {
 	                        switch (_context.prev = _context.next) {
 	                            case 0:
-	                                _context.next = 2;
-	                                return (0, _wikijs2.default)().search(name);
+	                                dataList = [];
+	                                i = 0;
 	
 	                            case 2:
-	                                searchResults = _context.sent;
+	                                if (!(i < this.names.length)) {
+	                                    _context.next = 10;
+	                                    break;
+	                                }
+	
 	                                _context.next = 5;
-	                                return searchResults.results[0];
+	                                return this.fetchWiki(this.names[i]);
 	
 	                            case 5:
-	                                foundName = _context.sent;
-	                                _context.next = 8;
-	                                return (0, _wikijs2.default)().page(foundName);
-	
-	                            case 8:
 	                                data = _context.sent;
-	                                return _context.abrupt('return', data);
+	
+	                                dataList.push(data);
+	
+	                            case 7:
+	                                i++;
+	                                _context.next = 2;
+	                                break;
 	
 	                            case 10:
+	                                _context.next = 12;
+	                                return this.setStateAsync({ data: dataList });
+	
+	                            case 12:
 	                            case 'end':
 	                                return _context.stop();
 	                        }
@@ -29988,48 +29997,39 @@
 	                }, _callee, this);
 	            }));
 	
-	            function fetchWiki(_x) {
+	            function componentDidMount() {
 	                return _ref.apply(this, arguments);
 	            }
 	
-	            return fetchWiki;
+	            return componentDidMount;
 	        }()
 	    }, {
-	        key: 'componentDidMount',
+	        key: 'fetchWiki',
 	        value: function () {
-	            var _ref2 = _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
-	                var dataList, i, data;
+	            var _ref2 = _asyncToGenerator(regeneratorRuntime.mark(function _callee2(name) {
+	                var searchResults, foundName, data;
 	                return regeneratorRuntime.wrap(function _callee2$(_context2) {
 	                    while (1) {
 	                        switch (_context2.prev = _context2.next) {
 	                            case 0:
-	                                dataList = [];
-	                                i = 0;
+	                                _context2.next = 2;
+	                                return (0, _wikijs2.default)().search(name);
 	
 	                            case 2:
-	                                if (!(i < this.names.length)) {
-	                                    _context2.next = 10;
-	                                    break;
-	                                }
-	
+	                                searchResults = _context2.sent;
 	                                _context2.next = 5;
-	                                return this.fetchWiki(this.names[i]);
+	                                return searchResults.results[0];
 	
 	                            case 5:
+	                                foundName = _context2.sent;
+	                                _context2.next = 8;
+	                                return (0, _wikijs2.default)().page(foundName);
+	
+	                            case 8:
 	                                data = _context2.sent;
-	
-	                                dataList.push(data);
-	
-	                            case 7:
-	                                i++;
-	                                _context2.next = 2;
-	                                break;
+	                                return _context2.abrupt('return', data);
 	
 	                            case 10:
-	                                _context2.next = 12;
-	                                return this.setStateAsync({ data: dataList });
-	
-	                            case 12:
 	                            case 'end':
 	                                return _context2.stop();
 	                        }
@@ -30037,11 +30037,11 @@
 	                }, _callee2, this);
 	            }));
 	
-	            function componentDidMount() {
+	            function fetchWiki(_x) {
 	                return _ref2.apply(this, arguments);
 	            }
 	
-	            return componentDidMount;
+	            return fetchWiki;
 	        }()
 	    }, {
 	        key: 'showCards',
@@ -30117,6 +30117,8 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
+	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -30131,12 +30133,86 @@
 	    function CardKing() {
 	        _classCallCheck(this, CardKing);
 	
-	        return _possibleConstructorReturn(this, (CardKing.__proto__ || Object.getPrototypeOf(CardKing)).apply(this, arguments));
+	        var _this = _possibleConstructorReturn(this, (CardKing.__proto__ || Object.getPrototypeOf(CardKing)).call(this));
+	
+	        _this.state = {
+	            info: undefined
+	        };
+	        return _this;
 	    }
 	
 	    _createClass(CardKing, [{
+	        key: 'getTitles',
+	        value: function getTitles(info) {
+	            var allowed = ['succession', 'succession1', 'succession2', 'succession3'];
+	
+	            //filters the info obj to contain only list of succesions
+	            var filtered = Object.keys(info).filter(function (key) {
+	                return allowed.includes(key);
+	            }).reduce(function (obj, key) {
+	                obj[key] = info[key];
+	                return obj;
+	            }, {});
+	
+	            var titlesString = '';
+	            Object.keys(filtered).forEach(function (key) {
+	                if (typeof filtered[key] == 'string') {
+	                    titlesString += filtered[key] + ', ';
+	                } else {
+	                    filtered[key].forEach(function (el) {
+	                        titlesString += el + ', ';
+	                    });
+	                }
+	            });
+	            titlesString = titlesString.slice(0, -2);
+	            return titlesString;
+	        }
+	    }, {
+	        key: 'componentDidMount',
+	        value: function () {
+	            var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+	                var info, titles;
+	                return regeneratorRuntime.wrap(function _callee$(_context) {
+	                    while (1) {
+	                        switch (_context.prev = _context.next) {
+	                            case 0:
+	                                _context.next = 2;
+	                                return this.props.data.info();
+	
+	                            case 2:
+	                                info = _context.sent;
+	                                titles = this.getTitles(info);
+	
+	
+	                                this.setState({
+	                                    info: info,
+	                                    name: info.name,
+	                                    titles: titles
+	                                });
+	
+	                            case 5:
+	                            case 'end':
+	                                return _context.stop();
+	                        }
+	                    }
+	                }, _callee, this);
+	            }));
+	
+	            function componentDidMount() {
+	                return _ref.apply(this, arguments);
+	            }
+	
+	            return componentDidMount;
+	        }()
+	    }, {
 	        key: 'render',
 	        value: function render() {
+	            var info = void 0;
+	            if (this.state.info != undefined) {
+	                info = this.state.info;
+	                console.log(info);
+	            }
+	
 	            return _react2.default.createElement(
 	                _Paper2.default,
 	                { zDepth: 3, className: _styles2.default.card },
@@ -30151,12 +30227,12 @@
 	                    _react2.default.createElement(
 	                        'div',
 	                        { className: _styles2.default.title },
-	                        'Sigismund III Vasa'
+	                        this.state.name || '...'
 	                    ),
 	                    _react2.default.createElement(
 	                        'div',
 	                        { className: _styles2.default.titles },
-	                        'King of Poland, Grand Duke of Lithuania, King of Sweden'
+	                        this.state.titles || '...'
 	                    )
 	                ),
 	                _react2.default.createElement(
