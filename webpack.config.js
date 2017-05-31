@@ -44,5 +44,8 @@ module.exports = {
 	},
 	plugins: [
 		new ExtractTextPlugin('bundle.css'),
-	]
+	],
+	externals: {
+		"isomorphic-fetch": "fetch"
+	}
 };
