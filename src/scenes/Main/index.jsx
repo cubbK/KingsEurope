@@ -3,52 +3,39 @@ import styles from './styles.scss'
 import CardKing from './components/CardKing/index.jsx';
 import wiki from 'wikijs';
 
+import firebase from 'firebase/app';
+import 'firebase/database';
+
+
 export default class Main extends React.Component {
     constructor() {
         super();
-        this.names = ['Zygmunt III Wasa', 'Vladislav IV Wasa'];
-        this.state = {
-            data: undefined
-        }
-    }
-
-    //There is no guarantee of synchronous operation of calls to setState and calls may be batched for performance gains.
-    setStateAsync(state) {
-        return new Promise((resolve) => {
-            this.setState(state, resolve)
+        this.firebaseApp = firebase.initializeApp({
+            apiKey: " AIzaSyAAamirHLaO4bbyCl6Cq5z3YJxw9xbIYeI",
+            databaseURL: "https://kingseurope-f4ddf.firebaseio.com/",
         });
-    }
 
-    async componentDidMount() {
-        let dataList = []
-        for (let i = 0; i < this.names.length; i++) {
-            const data = await this.fetchWiki(this.names[i]);
-            dataList.push(data);
+        this.database = firebase.database();
+
+        this.state = {
+            
         }
-        await this.setStateAsync({ data: dataList });
-    }
-
-    async fetchWiki(name) {
-        const searchResults = await wiki().search(name);
-        const foundName = await searchResults.results[0];
-        const data = await wiki().page(foundName);
-        return data;
     }
 
     showCards() {
-        const cards = this.names.map((name, id) => {
-            const data = this.state.data;
-            if (data != undefined) {
-                return (
-                    <CardKing key={id} data={data[id]} />
-                );
-            }
-
-        });
-        return cards;
+        return (
+            <CardKing />
+        );
     }
 
-
+    componentDidMount() {
+        this.database.ref('/cards').once('value').then(snapshot => {
+            this.setState({
+                data : snapshot.val()
+            })
+        });
+        this.state.data ? console.log(this.state.data) : null;
+    }
 
     render() {
         return (

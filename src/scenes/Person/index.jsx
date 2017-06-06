@@ -10,6 +10,16 @@ export default class Person extends React.Component {
         
         return "123";
     }
+
+    getName() {
+        const name = this.props.match.params.name.replace(/-/g, ' ');
+        console.log(name);
+    }
+
+    componentDidMount() {
+        this.getName();
+    }
+
     render() {
         return (
             <div className={styles.personZone}>
