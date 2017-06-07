@@ -18,23 +18,36 @@ export default class Main extends React.Component {
         this.database = firebase.database();
 
         this.state = {
-            
+            data: undefined
         }
     }
 
     showCards() {
-        return (
-            <CardKing />
-        );
+        if (this.state.data == undefined) {
+            return (
+                <CardKing />
+            );
+        } else {
+            //
+            const vals = Object.keys(this.state.data).map(key => this.state.data[key]); 
+            return (
+                <div>
+                    {vals.map((val, index)=>{
+                        return (
+                            <CardKing data={val} key={index}/>
+                        )
+                    })}
+                </div>
+            )
+        }
     }
 
-    componentDidMount() {
+    async componentWillMount() {
         this.database.ref('/cards').once('value').then(snapshot => {
             this.setState({
-                data : snapshot.val()
+                data: snapshot.val()
             })
         });
-        this.state.data ? console.log(this.state.data) : null;
     }
 
     render() {

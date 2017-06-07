@@ -22,21 +22,20 @@ export default class CardKing extends React.Component {
     }
 
     render() {
-        
-
+        const data = this.props.data;
         return (
             <Paper zDepth={3} className={styles.card}>
                 <Avatar
-                    src="http://images.npg.org.uk/800_800/7/0/mw03070.jpg"
+                    src={data && data.image}
                     size={140}
                     style={{ border: 0, objectFit: 'cover' }}
                 />
                 <div className={styles.content}>
                     <div className={styles.title}>
-                        Name
+                        {data && data.name}
                     </div>
                     <div className={styles.titles}>
-                        Titles
+                        {data && data.titles}
                     </div>
                 </div>
                 <Link className={styles.readMore} to={`/${this.getRouteName()}`}>

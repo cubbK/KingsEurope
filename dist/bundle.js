@@ -29932,6 +29932,8 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
+	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -29953,27 +29955,63 @@
 	
 	        _this.database = _app2.default.database();
 	
-	        _this.state = {};
+	        _this.state = {
+	            data: undefined
+	        };
 	        return _this;
 	    }
 	
 	    _createClass(Main, [{
 	        key: 'showCards',
 	        value: function showCards() {
-	            return _react2.default.createElement(_index2.default, null);
-	        }
-	    }, {
-	        key: 'componentDidMount',
-	        value: function componentDidMount() {
 	            var _this2 = this;
 	
-	            this.database.ref('/cards').once('value').then(function (snapshot) {
-	                _this2.setState({
-	                    data: snapshot.val()
+	            if (this.state.data == undefined) {
+	                return _react2.default.createElement(_index2.default, null);
+	            } else {
+	                //
+	                var vals = Object.keys(this.state.data).map(function (key) {
+	                    return _this2.state.data[key];
 	                });
-	            });
-	            this.state.data ? console.log(this.state.data) : null;
+	                return _react2.default.createElement(
+	                    'div',
+	                    null,
+	                    vals.map(function (val, index) {
+	                        return _react2.default.createElement(_index2.default, { data: val, key: index });
+	                    })
+	                );
+	            }
 	        }
+	    }, {
+	        key: 'componentWillMount',
+	        value: function () {
+	            var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+	                var _this3 = this;
+	
+	                return regeneratorRuntime.wrap(function _callee$(_context) {
+	                    while (1) {
+	                        switch (_context.prev = _context.next) {
+	                            case 0:
+	                                this.database.ref('/cards').once('value').then(function (snapshot) {
+	                                    _this3.setState({
+	                                        data: snapshot.val()
+	                                    });
+	                                });
+	
+	                            case 1:
+	                            case 'end':
+	                                return _context.stop();
+	                        }
+	                    }
+	                }, _callee, this);
+	            }));
+	
+	            function componentWillMount() {
+	                return _ref.apply(this, arguments);
+	            }
+	
+	            return componentWillMount;
+	        }()
 	    }, {
 	        key: 'render',
 	        value: function render() {
@@ -30069,12 +30107,12 @@
 	    }, {
 	        key: 'render',
 	        value: function render() {
-	
+	            var data = this.props.data;
 	            return _react2.default.createElement(
 	                _Paper2.default,
 	                { zDepth: 3, className: _styles2.default.card },
 	                _react2.default.createElement(_Avatar2.default, {
-	                    src: 'http://images.npg.org.uk/800_800/7/0/mw03070.jpg',
+	                    src: data && data.image,
 	                    size: 140,
 	                    style: { border: 0, objectFit: 'cover' }
 	                }),
@@ -30084,12 +30122,12 @@
 	                    _react2.default.createElement(
 	                        'div',
 	                        { className: _styles2.default.title },
-	                        'Name'
+	                        data && data.name
 	                    ),
 	                    _react2.default.createElement(
 	                        'div',
 	                        { className: _styles2.default.titles },
-	                        'Titles'
+	                        data && data.titles
 	                    )
 	                ),
 	                _react2.default.createElement(
