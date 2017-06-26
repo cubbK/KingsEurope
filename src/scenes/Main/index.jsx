@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './styles.scss'
 import CardKing from './components/CardKing/index.jsx';
-import wiki from 'wikijs';
 
 import firebase from 'firebase/app';
 import 'firebase/database';

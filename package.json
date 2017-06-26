@@ -4,7 +4,9 @@
   "description": "Interactive family tree like in ck2 build with react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "server": "live-server --watch=dist/"
   },
   "repository": {
     "type": "git",
@@ -62,7 +64,6 @@
     "react-draggable": "^2.2.6",
     "react-places-autocomplete": "^5.2.1",
     "react-router-dom": "^4.1.1",
-    "react-tap-event-plugin": "^2.0.1",
-    "wikijs": "^3.0.5"
+    "react-tap-event-plugin": "^2.0.1"
   }
 }
