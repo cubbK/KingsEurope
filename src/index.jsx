@@ -4,11 +4,11 @@ import Main from './scenes/Main/index.jsx';
 import Person from './scenes/Person/index.jsx';
 import rules from './styles.scss';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route,  browserHistory } from 'react-router-dom';
 class App extends React.Component {
   render() {
     return (
-      <Router basename='/dist'>
+      <Router basename='/' history={browserHistory} >
         <MuiThemeProvider>
           <main>
             <Route exact path='/' component={Main} />
