@@ -1,1 +1,4 @@
-/build/
+coverage/**
+node_modules/**
+dist/**
+src/index.html
