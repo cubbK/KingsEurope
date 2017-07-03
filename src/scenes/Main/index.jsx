@@ -9,12 +9,9 @@ import 'firebase/database';
 export default class Main extends React.Component {
     constructor() {
         super();
-        this.firebaseApp = firebase.initializeApp({
-            apiKey: " AIzaSyAAamirHLaO4bbyCl6Cq5z3YJxw9xbIYeI",
-            databaseURL: "https://kingseurope-f4ddf.firebaseio.com/",
-        });
 
-        this.database = firebase.database();
+
+
 
         this.state = {
             data: undefined
@@ -42,6 +39,16 @@ export default class Main extends React.Component {
     }
 
     async componentWillMount() {
+
+        if(!firebase.apps.length) {
+            console.log("not firebase...creating")
+            console.log(this.firebaseApp)
+            this.firebaseApp = firebase.initializeApp({
+                apiKey: " AIzaSyAAamirHLaO4bbyCl6Cq5z3YJxw9xbIYeI",
+                databaseURL: "https://kingseurope-f4ddf.firebaseio.com/",
+            });
+        }
+        this.database = firebase.database();
         this.database.ref('/cards').once('value').then(snapshot => {
             this.setState({
                 data: snapshot.val()

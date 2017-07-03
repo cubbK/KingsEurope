@@ -30313,13 +30313,6 @@
 	
 	        var _this = _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).call(this));
 	
-	        _this.firebaseApp = _app2.default.initializeApp({
-	            apiKey: " AIzaSyAAamirHLaO4bbyCl6Cq5z3YJxw9xbIYeI",
-	            databaseURL: "https://kingseurope-f4ddf.firebaseio.com/"
-	        });
-	
-	        _this.database = _app2.default.database();
-	
 	        _this.state = {
 	            data: undefined
 	        };
@@ -30357,13 +30350,23 @@
 	                    while (1) {
 	                        switch (_context.prev = _context.next) {
 	                            case 0:
+	
+	                                if (!_app2.default.apps.length) {
+	                                    console.log("not firebase...creating");
+	                                    console.log(this.firebaseApp);
+	                                    this.firebaseApp = _app2.default.initializeApp({
+	                                        apiKey: " AIzaSyAAamirHLaO4bbyCl6Cq5z3YJxw9xbIYeI",
+	                                        databaseURL: "https://kingseurope-f4ddf.firebaseio.com/"
+	                                    });
+	                                }
+	                                this.database = _app2.default.database();
 	                                this.database.ref('/cards').once('value').then(function (snapshot) {
 	                                    _this3.setState({
 	                                        data: snapshot.val()
 	                                    });
 	                                });
 	
-	                            case 1:
+	                            case 3:
 	                            case 'end':
 	                                return _context.stop();
 	                        }
@@ -42893,6 +42896,7 @@
 	        value: function getName() {
 	            var name = this.props.match.params.name.replace(/-/g, ' ');
 	            console.log(name);
+	            return name;
 	        }
 	    }, {
 	        key: 'componentDidMount',
@@ -42914,7 +42918,7 @@
 	                        _react2.default.createElement(
 	                            'h1',
 	                            { className: _styles2.default.title },
-	                            'Sigismund III Vasa'
+	                            this.getName()
 	                        ),
 	                        _react2.default.createElement(_index2.default, null),
 	                        this.wiki()

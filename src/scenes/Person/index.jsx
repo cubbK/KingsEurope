@@ -14,6 +14,7 @@ export default class Person extends React.Component {
     getName() {
         const name = this.props.match.params.name.replace(/-/g, ' ');
         console.log(name);
+        return name;
     }
 
     componentDidMount() {
@@ -26,7 +27,7 @@ export default class Person extends React.Component {
                 <div className={styles.upperPart}>
                     <Paper zDepth={3} className={styles.mainInfo}>
                         <h1 className={styles.title}>
-                            Sigismund III Vasa
+                            {this.getName()}
                         </h1>
                         <InfoList/>
                         {this.wiki()}
