@@ -30335,7 +30335,7 @@
 	                    'div',
 	                    null,
 	                    vals.map(function (val, index) {
-	                        return _react2.default.createElement(_index2.default, { data: val, key: index });
+	                        return _react2.default.createElement(_index2.default, { data: val, key: index, firebase: "logo" });
 	                    })
 	                );
 	            }
@@ -30352,8 +30352,6 @@
 	                            case 0:
 	
 	                                if (!_app2.default.apps.length) {
-	                                    console.log("not firebase...creating");
-	                                    console.log(this.firebaseApp);
 	                                    this.firebaseApp = _app2.default.initializeApp({
 	                                        apiKey: " AIzaSyAAamirHLaO4bbyCl6Cq5z3YJxw9xbIYeI",
 	                                        databaseURL: "https://kingseurope-f4ddf.firebaseio.com/"
@@ -42882,20 +42880,13 @@
 	    function Person() {
 	        _classCallCheck(this, Person);
 	
-	        return _possibleConstructorReturn(this, (Person.__proto__ || Object.getPrototypeOf(Person)).apply(this, arguments));
+	        return _possibleConstructorReturn(this, (Person.__proto__ || Object.getPrototypeOf(Person)).call(this));
 	    }
 	
 	    _createClass(Person, [{
-	        key: 'wiki',
-	        value: function wiki() {
-	
-	            return "123";
-	        }
-	    }, {
 	        key: 'getName',
 	        value: function getName() {
 	            var name = this.props.match.params.name.replace(/-/g, ' ');
-	            console.log(name);
 	            return name;
 	        }
 	    }, {
@@ -42920,8 +42911,7 @@
 	                            { className: _styles2.default.title },
 	                            this.getName()
 	                        ),
-	                        _react2.default.createElement(_index2.default, null),
-	                        this.wiki()
+	                        _react2.default.createElement(_index2.default, null)
 	                    ),
 	                    _react2.default.createElement(
 	                        'div',

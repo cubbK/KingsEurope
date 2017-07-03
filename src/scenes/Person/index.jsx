@@ -6,14 +6,12 @@ import Paper from 'material-ui/Paper';
 import InfoList from './InfoList/index.jsx';
 
 export default class Person extends React.Component {
-    wiki() {
-        
-        return "123";
+    constructor() {
+        super();
     }
 
     getName() {
         const name = this.props.match.params.name.replace(/-/g, ' ');
-        console.log(name);
         return name;
     }
 
@@ -30,7 +28,6 @@ export default class Person extends React.Component {
                             {this.getName()}
                         </h1>
                         <InfoList/>
-                        {this.wiki()}
                     </Paper>
                     <div className={styles.photos}>2</div>
                 </div>

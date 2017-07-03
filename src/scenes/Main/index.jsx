@@ -9,10 +9,6 @@ import 'firebase/database';
 export default class Main extends React.Component {
     constructor() {
         super();
-
-
-
-
         this.state = {
             data: undefined
         }
@@ -30,7 +26,7 @@ export default class Main extends React.Component {
                 <div>
                     {vals.map((val, index)=>{
                         return (
-                            <CardKing data={val} key={index}/>
+                            <CardKing data={val} key={index} firebase={"logo"}/>
                         )
                     })}
                 </div>
@@ -41,8 +37,6 @@ export default class Main extends React.Component {
     async componentWillMount() {
 
         if(!firebase.apps.length) {
-            console.log("not firebase...creating")
-            console.log(this.firebaseApp)
             this.firebaseApp = firebase.initializeApp({
                 apiKey: " AIzaSyAAamirHLaO4bbyCl6Cq5z3YJxw9xbIYeI",
                 databaseURL: "https://kingseurope-f4ddf.firebaseio.com/",
