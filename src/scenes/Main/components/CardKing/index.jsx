@@ -10,15 +10,6 @@ import {Link} from 'react-router-dom';
 export default class CardKing extends React.Component {
     constructor() {
         super();
-        this.state = {
-            name: 'sigmund'
-        }
-    }
-
-    getRouteName() {
-        
-       let routeName =  this.state.name ? this.state.name.replace(/ /g, '-').toLowerCase() : null;
-       return routeName;
     }
 
     render() {
@@ -35,10 +26,10 @@ export default class CardKing extends React.Component {
                         {data && data.name}
                     </div>
                     <div className={styles.titles}>
-                        {data && data.titles}
+                        {data && data.titles.join(', ')}
                     </div>
                 </div>
-                <Link className={styles.readMore} to={`/${this.getRouteName()}`}>
+                <Link className={styles.readMore} to={'/view/' + (data && data.id)}>
                     read more
                 </Link>
             </Paper>

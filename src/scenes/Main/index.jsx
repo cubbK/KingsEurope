@@ -26,7 +26,7 @@ export default class Main extends React.Component {
                 <div>
                     {vals.map((val, index)=>{
                         return (
-                            <CardKing data={val} key={index} firebase={"logo"}/>
+                            <CardKing data={val} key={index}/>
                         )
                     })}
                 </div>
@@ -35,7 +35,6 @@ export default class Main extends React.Component {
     }
 
     async componentWillMount() {
-
         if(!firebase.apps.length) {
             this.firebaseApp = firebase.initializeApp({
                 apiKey: " AIzaSyAAamirHLaO4bbyCl6Cq5z3YJxw9xbIYeI",

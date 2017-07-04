@@ -8119,7 +8119,7 @@
 	            'main',
 	            null,
 	            _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _index2.default }),
-	            _react2.default.createElement(_reactRouterDom.Route, { path: '/:name', component: _index4.default })
+	            _react2.default.createElement(_reactRouterDom.Route, { path: '/view/:id', component: _index4.default })
 	          )
 	        )
 	      );
@@ -30335,7 +30335,7 @@
 	                    'div',
 	                    null,
 	                    vals.map(function (val, index) {
-	                        return _react2.default.createElement(_index2.default, { data: val, key: index, firebase: "logo" });
+	                        return _react2.default.createElement(_index2.default, { data: val, key: index });
 	                    })
 	                );
 	            }
@@ -30350,7 +30350,6 @@
 	                    while (1) {
 	                        switch (_context.prev = _context.next) {
 	                            case 0:
-	
 	                                if (!_app2.default.apps.length) {
 	                                    this.firebaseApp = _app2.default.initializeApp({
 	                                        apiKey: " AIzaSyAAamirHLaO4bbyCl6Cq5z3YJxw9xbIYeI",
@@ -30455,22 +30454,10 @@
 	    function CardKing() {
 	        _classCallCheck(this, CardKing);
 	
-	        var _this = _possibleConstructorReturn(this, (CardKing.__proto__ || Object.getPrototypeOf(CardKing)).call(this));
-	
-	        _this.state = {
-	            name: 'sigmund'
-	        };
-	        return _this;
+	        return _possibleConstructorReturn(this, (CardKing.__proto__ || Object.getPrototypeOf(CardKing)).call(this));
 	    }
 	
 	    _createClass(CardKing, [{
-	        key: 'getRouteName',
-	        value: function getRouteName() {
-	
-	            var routeName = this.state.name ? this.state.name.replace(/ /g, '-').toLowerCase() : null;
-	            return routeName;
-	        }
-	    }, {
 	        key: 'render',
 	        value: function render() {
 	            var data = this.props.data;
@@ -30493,12 +30480,12 @@
 	                    _react2.default.createElement(
 	                        'div',
 	                        { className: _styles2.default.titles },
-	                        data && data.titles
+	                        data && data.titles.join(', ')
 	                    )
 	                ),
 	                _react2.default.createElement(
 	                    _reactRouterDom.Link,
-	                    { className: _styles2.default.readMore, to: '/' + this.getRouteName() },
+	                    { className: _styles2.default.readMore, to: '/view/' + (data && data.id) },
 	                    'read more'
 	                )
 	            );
@@ -42862,6 +42849,12 @@
 	
 	var _Paper2 = _interopRequireDefault(_Paper);
 	
+	var _app = __webpack_require__(678);
+	
+	var _app2 = _interopRequireDefault(_app);
+	
+	__webpack_require__(687);
+	
 	var _index = __webpack_require__(693);
 	
 	var _index2 = _interopRequireDefault(_index);
@@ -42886,13 +42879,19 @@
 	    _createClass(Person, [{
 	        key: 'getName',
 	        value: function getName() {
-	            var name = this.props.match.params.name.replace(/-/g, ' ');
+	            var name = this.props.match.params.id.replace(/-/g, ' ');
 	            return name;
 	        }
 	    }, {
-	        key: 'componentDidMount',
-	        value: function componentDidMount() {
-	            this.getName();
+	        key: 'componentWillMount',
+	        value: function componentWillMount() {
+	            if (!_app2.default.apps.length) {
+	                this.firebaseApp = _app2.default.initializeApp({
+	                    apiKey: " AIzaSyAAamirHLaO4bbyCl6Cq5z3YJxw9xbIYeI",
+	                    databaseURL: "https://kingseurope-f4ddf.firebaseio.com/"
+	                });
+	            }
+	            this.database = _app2.default.database();
 	        }
 	    }, {
 	        key: 'render',
@@ -42916,7 +42915,7 @@
 	                    _react2.default.createElement(
 	                        'div',
 	                        { className: _styles2.default.photos },
-	                        '2'
+	                        'Photos '
 	                    )
 	                )
 	            );
