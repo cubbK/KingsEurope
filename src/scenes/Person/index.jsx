@@ -6,17 +6,15 @@ import Paper from 'material-ui/Paper';
 import firebase from 'firebase/app';
 import 'firebase/database';
 
-import InfoList from './InfoList/index.jsx';
+import InfoList from './components/ListTitles/index.jsx';
 
 export default class Person extends React.Component {
     constructor() {
         super();
-
-    }
-
-    getName() {
-        const name = this.props.match.params.id.replace(/-/g, ' ');
-        return name;
+        this.state = {
+            data : null,
+            detailed : null
+        }
     }
 
     componentWillMount() {
@@ -27,17 +25,32 @@ export default class Person extends React.Component {
             });
         }
         this.database = firebase.database();
+        this.id = this.props.match.params.id;
+
+        this.database.ref('/detailed/' + this.id).once('value').then(snapshot => {
+            this.setState({
+                detailed: snapshot.val()
+            })
+        });
+        this.database.ref('/cards/' + this.id).once('value').then(snapshot => {
+            this.setState({
+                data: snapshot.val()
+            })
+        });
+
     }
 
     render() {
+        const data = this.state.data;
+        const detailed = this.state.detailed;
         return (
             <div className={styles.personZone}>
                 <div className={styles.upperPart}>
                     <Paper zDepth={3} className={styles.mainInfo}>
                         <h1 className={styles.title}>
-                            {this.getName()}
+                            {data && data.name}
                         </h1>
-                        <InfoList/>
+                        {data && <InfoList titles={data.titles}/>}
                     </Paper>
                     <div className={styles.photos}>Photos </div>
                 </div>

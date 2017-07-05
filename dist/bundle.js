@@ -34122,9 +34122,6 @@
 	        color: focusRippleColor,
 	        opacity: focusRippleOpacity,
 	        show: isKeyboardFocused,
-	        style: {
-	          overflow: 'hidden'
-	        },
 	        key: 'focusRipple'
 	      }) : undefined;
 	
@@ -42855,7 +42852,7 @@
 	
 	__webpack_require__(687);
 	
-	var _index = __webpack_require__(693);
+	var _index = __webpack_require__(743);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
@@ -42873,18 +42870,20 @@
 	    function Person() {
 	        _classCallCheck(this, Person);
 	
-	        return _possibleConstructorReturn(this, (Person.__proto__ || Object.getPrototypeOf(Person)).call(this));
+	        var _this = _possibleConstructorReturn(this, (Person.__proto__ || Object.getPrototypeOf(Person)).call(this));
+	
+	        _this.state = {
+	            data: null,
+	            detailed: null
+	        };
+	        return _this;
 	    }
 	
 	    _createClass(Person, [{
-	        key: 'getName',
-	        value: function getName() {
-	            var name = this.props.match.params.id.replace(/-/g, ' ');
-	            return name;
-	        }
-	    }, {
 	        key: 'componentWillMount',
 	        value: function componentWillMount() {
+	            var _this2 = this;
+	
 	            if (!_app2.default.apps.length) {
 	                this.firebaseApp = _app2.default.initializeApp({
 	                    apiKey: " AIzaSyAAamirHLaO4bbyCl6Cq5z3YJxw9xbIYeI",
@@ -42892,10 +42891,24 @@
 	                });
 	            }
 	            this.database = _app2.default.database();
+	            this.id = this.props.match.params.id;
+	
+	            this.database.ref('/detailed/' + this.id).once('value').then(function (snapshot) {
+	                _this2.setState({
+	                    detailed: snapshot.val()
+	                });
+	            });
+	            this.database.ref('/cards/' + this.id).once('value').then(function (snapshot) {
+	                _this2.setState({
+	                    data: snapshot.val()
+	                });
+	            });
 	        }
 	    }, {
 	        key: 'render',
 	        value: function render() {
+	            var data = this.state.data;
+	            var detailed = this.state.detailed;
 	            return _react2.default.createElement(
 	                'div',
 	                { className: _styles2.default.personZone },
@@ -42908,9 +42921,9 @@
 	                        _react2.default.createElement(
 	                            'h1',
 	                            { className: _styles2.default.title },
-	                            this.getName()
+	                            data && data.name
 	                        ),
-	                        _react2.default.createElement(_index2.default, null)
+	                        data && _react2.default.createElement(_index2.default, { titles: data.titles })
 	                    ),
 	                    _react2.default.createElement(
 	                        'div',
@@ -43084,6 +43097,7 @@
 	      borderRadius: borderRadius,
 	      transition: _transitions2.default.easeOut(),
 	      backgroundColor: backgroundColor,
+	      overflow: 'hidden',
 	      // That's the default value for a button but not a link
 	      textAlign: 'center'
 	    },
@@ -43693,51 +43707,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(300)))
 
 /***/ }),
-/* 693 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(298);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var InfoList = function (_React$Component) {
-	    _inherits(InfoList, _React$Component);
-	
-	    function InfoList() {
-	        _classCallCheck(this, InfoList);
-	
-	        return _possibleConstructorReturn(this, (InfoList.__proto__ || Object.getPrototypeOf(InfoList)).apply(this, arguments));
-	    }
-	
-	    _createClass(InfoList, [{
-	        key: 'render',
-	        value: function render() {
-	            return _react2.default.createElement('ul', null);
-	        }
-	    }]);
-	
-	    return InfoList;
-	}(_react2.default.Component);
-	
-	exports.default = InfoList;
-
-/***/ }),
+/* 693 */,
 /* 694 */
 /***/ (function(module, exports) {
 
@@ -49067,6 +49037,37 @@
 	};
 	
 	exports.default = new Typography();
+
+/***/ }),
+/* 743 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = ListTitles;
+	
+	var _react = __webpack_require__(298);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function ListTitles(props) {
+	    return _react2.default.createElement(
+	        'ul',
+	        null,
+	        props.titles.map(function (val, index) {
+	            return _react2.default.createElement(
+	                'li',
+	                { key: index },
+	                val
+	            );
+	        })
+	    );
+	}
 
 /***/ })
 /******/ ]);
