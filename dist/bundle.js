@@ -34122,6 +34122,9 @@
 	        color: focusRippleColor,
 	        opacity: focusRippleOpacity,
 	        show: isKeyboardFocused,
+	        style: {
+	          overflow: 'hidden'
+	        },
 	        key: 'focusRipple'
 	      }) : undefined;
 	
@@ -42923,7 +42926,12 @@
 	                            { className: _styles2.default.title },
 	                            data && data.name
 	                        ),
-	                        data && _react2.default.createElement(_index2.default, { titles: data.titles })
+	                        data && _react2.default.createElement(_index2.default, { titles: data.titles }),
+	                        _react2.default.createElement(
+	                            'div',
+	                            null,
+	                            detailed && detailed.desc
+	                        )
 	                    ),
 	                    _react2.default.createElement(
 	                        'div',
@@ -43097,7 +43105,6 @@
 	      borderRadius: borderRadius,
 	      transition: _transitions2.default.easeOut(),
 	      backgroundColor: backgroundColor,
-	      overflow: 'hidden',
 	      // That's the default value for a button but not a link
 	      textAlign: 'center'
 	    },

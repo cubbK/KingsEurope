@@ -51,6 +51,9 @@ export default class Person extends React.Component {
                             {data && data.name}
                         </h1>
                         {data && <InfoList titles={data.titles}/>}
+                        <div>
+                            {detailed && detailed.desc}
+                        </div>
                     </Paper>
                     <div className={styles.photos}>Photos </div>
                 </div>
