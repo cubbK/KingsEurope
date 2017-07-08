@@ -7,6 +7,7 @@ import firebase from 'firebase/app';
 import 'firebase/database';
 
 import InfoList from './components/ListTitles/index.jsx';
+import Images from './components/Images/index.jsx';
 
 export default class Person extends React.Component {
     constructor() {
@@ -51,13 +52,17 @@ export default class Person extends React.Component {
                             {data && data.name}
                         </h1>
                         {data && <InfoList titles={data.titles}/>}
-                        <div>
+                        <div className={styles.desc}>
                             {detailed && detailed.desc}
                         </div>
                     </Paper>
-                    <div className={styles.photos}>Photos </div>
+                    <div className={styles.photos}>
+                        <Images/>
+                    </div>
                 </div>
             </div>
         )
     }
 }
+
+// 007316404590736673675:unntfwjlnou

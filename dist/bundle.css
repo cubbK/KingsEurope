@@ -67,6 +67,22 @@
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase; }
+
+.styles__desc___3l4hW {
+  font-size: 16px;
+  padding-bottom: 20px;
+  line-height: 20px; }
+.styles__list___2K1tB {
+  list-style: none;
+  padding: 0 0 10px;
+  margin: 0; }
+
+.styles__item___27aId {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px; }
+.styles__mainBox___3nG5r {
+  width: 500px; }
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0; }
