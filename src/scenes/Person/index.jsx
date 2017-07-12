@@ -51,13 +51,13 @@ export default class Person extends React.Component {
                         <h1 className={styles.title}>
                             {data && data.name}
                         </h1>
-                        {data && <InfoList titles={data.titles}/>}
+                        {data && <InfoList titles={data.titles} />}
                         <div className={styles.desc}>
                             {detailed && detailed.desc}
                         </div>
                     </Paper>
                     <div className={styles.photos}>
-                        <Images/>
+                        <Images images={detailed && detailed.images} />
                     </div>
                 </div>
             </div>
@@ -65,4 +65,3 @@ export default class Person extends React.Component {
     }
 }
 
-// 007316404590736673675:unntfwjlnou

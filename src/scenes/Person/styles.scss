@@ -5,15 +5,16 @@
 
 .upperPart {
   display: flex;
+  justify-content: space-between;
 }
 
 .mainInfo {
-  flex-grow: 2;
+  width: 655px;
   padding: 0 20px 10px;
 }
 
 .photos {
-  flex-grow: 1;
+
 }
 
 .title {
