@@ -2,6 +2,7 @@
     width: 1170px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
 }
 
 .cards {
@@ -10,4 +11,14 @@
 
 .filter {
     flex-grow: 1;
+}
+.title {
+    color: #222;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.desc {
+    color: #222;
+    font-size: 25px;
 }

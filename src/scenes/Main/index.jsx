@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './styles.scss'
 import CardKing from './components/CardKing/index.jsx';
+import {Paper} from 'material-ui';
 
 import firebase from 'firebase/app';
 import 'firebase/database';
@@ -51,7 +52,15 @@ export default class Main extends React.Component {
 
     render() {
         return (
+           
             <div className={styles.container}>
+                <Paper zDepth={1} className={styles.header} >
+                    <h1 className={styles.title} >Rulers of Europe</h1>
+                    <div className={styles.desc}>
+                        The abridged list includes above all those kings and queens whose rule affected the arts of Europe in important ways and whose names are most commonly raised in art historical discussion.
+                    </div>
+                </Paper>
+                 
                 <div className={styles.cards}>
                     {this.showCards()}
                 </div>

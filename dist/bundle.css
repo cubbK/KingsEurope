@@ -1,13 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);.styles__container___uX9HC {
   width: 1170px;
   margin: 0 auto;
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
 
 .styles__cards___1Ucam {
   flex-grow: 2; }
 
 .styles__filter___3AOpl {
   flex-grow: 1; }
+
+.styles__title___25p8R {
+  color: #222;
+  text-transform: uppercase;
+  font-size: 45px; }
+
+.styles__desc___hWzI3 {
+  color: #222;
+  font-size: 25px; }
 .styles__card___OMHkG {
   margin-bottom: 20px;
   padding: 10px;
@@ -91,7 +101,7 @@ body {
   margin: 0; }
 
 main {
-  padding: 100px 0;
+  padding: 20px 0;
   display: flex;
   flex-direction: column;
   background-image: url(./img/bg.png);
