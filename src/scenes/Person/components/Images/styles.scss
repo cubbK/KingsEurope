@@ -1,19 +1,10 @@
 .mainBox {
   width: 500px;
-  display: block;
-  flex-wrap: wrap;
-  height : 1000px;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
+  
 }
 
 .image {
-  display:inline-block;
-  margin-bottom: 10px;
-  max-width: 240px;
-  margin-right: 5px;
-
+  width: 50%;
   & img {
     width: 100%;
   }

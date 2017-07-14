@@ -64,6 +64,7 @@
     "node-duckduckgo": "^1.0.4",
     "react": "^15.6.1",
     "react-draggable": "^2.2.6",
+    "react-masonry-component": "^5.0.7",
     "react-places-autocomplete": "^5.2.1",
     "react-router-dom": "^4.1.1",
     "react-tap-event-plugin": "^2.0.1"

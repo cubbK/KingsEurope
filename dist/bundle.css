@@ -80,19 +80,10 @@
   font-size: 16px;
   letter-spacing: 1px; }
 .styles__mainBox___3nG5r {
-  width: 500px;
-  display: block;
-  flex-wrap: wrap;
-  height: 1000px;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start; }
+  width: 500px; }
 
 .styles__image___AJgRC {
-  display: inline-block;
-  margin-bottom: 10px;
-  max-width: 240px;
-  margin-right: 5px; }
+  width: 50%; }
   .styles__image___AJgRC img {
     width: 100%; }
 body {
