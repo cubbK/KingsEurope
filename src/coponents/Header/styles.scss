@@ -1,0 +1,19 @@
+.mainBox {
+    align-items: center;
+    background-color: #222;
+    margin-bottom: 30px;
+}
+
+.container  {
+    height: 80px;
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title {
+    color: #fefefe;
+    margin: 0;
+    font-size: 28px;
+}

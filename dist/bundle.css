@@ -9,15 +9,6 @@
 
 .styles__filter___3AOpl {
   flex-grow: 1; }
-
-.styles__title___25p8R {
-  color: #222;
-  text-transform: uppercase;
-  font-size: 45px; }
-
-.styles__desc___hWzI3 {
-  color: #222;
-  font-size: 25px; }
 .styles__card___OMHkG {
   margin-bottom: 20px;
   padding: 10px;
@@ -59,6 +50,23 @@
   text-align: center;
   justify-content: center;
   color: #37474F; }
+.styles__mainBox___1qCJa {
+  align-items: center;
+  background-color: #222;
+  margin-bottom: 30px; }
+
+.styles__container___16bvX {
+  height: 80px;
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.styles__title___3um3L {
+  color: #fefefe;
+  margin: 0;
+  font-size: 28px; }
 .styles__personZone___1mfpM {
   width: 1170px;
   margin: 0 auto; }
@@ -101,7 +109,7 @@ body {
   margin: 0; }
 
 main {
-  padding: 20px 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   background-image: url(./img/bg.png);

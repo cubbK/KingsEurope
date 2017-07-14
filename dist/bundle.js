@@ -30289,7 +30289,9 @@
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _materialUi = __webpack_require__(772);
+	var _index3 = __webpack_require__(928);
+	
+	var _index4 = _interopRequireDefault(_index3);
 	
 	var _app = __webpack_require__(678);
 	
@@ -30384,27 +30386,18 @@
 	        value: function render() {
 	            return _react2.default.createElement(
 	                'div',
-	                { className: _styles2.default.container },
-	                _react2.default.createElement(
-	                    _materialUi.Paper,
-	                    { zDepth: 1, className: _styles2.default.header },
-	                    _react2.default.createElement(
-	                        'h1',
-	                        { className: _styles2.default.title },
-	                        'Rulers of Europe'
-	                    ),
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: _styles2.default.desc },
-	                        'The abridged list includes above all those kings and queens whose rule affected the arts of Europe in important ways and whose names are most commonly raised in art historical discussion.'
-	                    )
-	                ),
+	                null,
+	                _react2.default.createElement(_index4.default, null),
 	                _react2.default.createElement(
 	                    'div',
-	                    { className: _styles2.default.cards },
-	                    this.showCards()
-	                ),
-	                _react2.default.createElement('div', { className: _styles2.default.filter })
+	                    { className: _styles2.default.container },
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: _styles2.default.cards },
+	                        this.showCards()
+	                    ),
+	                    _react2.default.createElement('div', { className: _styles2.default.filter })
+	                )
 	            );
 	        }
 	    }]);
@@ -30419,7 +30412,7 @@
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"container":"styles__container___uX9HC","cards":"styles__cards___1Ucam","filter":"styles__filter___3AOpl","title":"styles__title___25p8R","desc":"styles__desc___hWzI3"};
+	module.exports = {"container":"styles__container___uX9HC","cards":"styles__cards___1Ucam","filter":"styles__filter___3AOpl"};
 
 /***/ }),
 /* 483 */,
@@ -83543,6 +83536,52 @@
 	} : {};
 	exports.default = ToolbarTitle;
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(300)))
+
+/***/ }),
+/* 928 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = Header;
+	
+	var _react = __webpack_require__(298);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _materialUi = __webpack_require__(772);
+	
+	var _styles = __webpack_require__(929);
+	
+	var _styles2 = _interopRequireDefault(_styles);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function Header(props) {
+	    return _react2.default.createElement(
+	        'div',
+	        { className: _styles2.default.mainBox },
+	        _react2.default.createElement(
+	            'div',
+	            { className: _styles2.default.container },
+	            _react2.default.createElement(
+	                'h1',
+	                { className: _styles2.default.title },
+	                'Rulers of Europe'
+	            )
+	        )
+	    );
+	}
+
+/***/ }),
+/* 929 */
+/***/ (function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+	module.exports = {"mainBox":"styles__mainBox___1qCJa","container":"styles__container___16bvX","title":"styles__title___3um3L"};
 
 /***/ })
 /******/ ]);
