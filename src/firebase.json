@@ -32,6 +32,77 @@
       ],
       "time": "1670-1733",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/A%C5%ADgust_Mocny._%D0%90%D1%9E%D0%B3%D1%83%D1%81%D1%82_%D0%9C%D0%BE%D1%86%D0%BD%D1%8B_%28H._Rodakowski%2C_XIX%29.jpg/800px-A%C5%ADgust_Mocny._%D0%90%D1%9E%D0%B3%D1%83%D1%81%D1%82_%D0%9C%D0%BE%D1%86%D0%BD%D1%8B_%28H._Rodakowski%2C_XIX%29.jpg"
+    },
+    {
+      "id" : 3,
+      "name": "John II Casimir Vasa",
+      "titles" : [
+        "King of Poland",
+        "Grand Duke of Lithuania"
+      ],
+      "time" : "1648-1668",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Bacciarelli_-_Jan_Kazimierz.jpeg"
+    },
+    {
+      "id" : 4,
+      "name": "Michael Wisniowiecki",
+      "titles" : [
+        "King of Poland",
+        "Grand Duke of Lithuania"
+      ],
+      "time" : "1669-1673",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Micha%C5%82_Karybut_Vi%C5%A1niaviecki._%D0%9C%D1%96%D1%85%D0%B0%D0%BB_%D0%9A%D0%B0%D1%80%D1%8B%D0%B1%D1%83%D1%82_%D0%92%D1%96%D1%88%D0%BD%D1%8F%D0%B2%D0%B5%D1%86%D0%BA%D1%96.jpg"
+    },
+    {
+      "id" :5,
+      "name" : "Augustus III",
+      "titles" : [
+        "King of Poland",
+        "Grand Duke of Lithuania",
+        "Elector of Saxony"
+      ],
+      "time" : "1734-1763",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/August_III_the_Saxon.PNG"
+    },
+    {
+      "id" : 6,
+      "name": "Stanislaw II Augustus Poniatowski",
+      "titles" :[
+        "King of Poland",
+        "Grand Duke of Lithuania"
+      ],
+      "time" : "1764-1795",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Vigee_Stanislaw_Augustus.jpg/220px-Vigee_Stanislaw_Augustus.jpg"
+    },
+    {
+      "id" : 7,
+      "name" : "Friedrich I",
+      "titles" : [
+        "King in Prussia",
+        "Duke of Prussia"
+      ],
+      "time" : "1701–1713",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/a/aa/Weidemann%2C_Friedrich_I_Preußen.jpg"
+    },
+    {
+      "id" :8,
+      "name" : "Friedrich Wilhelm I",
+      "titles" : [
+        "King in Prussia",
+        "Elector of Brandenburg"
+      ],
+      "time" : "1713–1740",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/f/f5/Friedrich_Wilhelm_I_1713.jpg"
+    },
+    {
+      "id": 9,
+      "name" : "Friedrich II, der Grosse",
+      "titles" : [
+        "King of Prussia",
+        "Elector of Brandenburg"
+      ],
+      "time": "1740–1786",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Friedrich_Zweite_Alt.jpg"
     }
   ],
   "detailed":[
@@ -66,6 +137,83 @@
         "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ernst_August_II._%28Sachsen-Weimar-Eisenach%29%40Schloss_Tiefurt.JPG/220px-Ernst_August_II._%28Sachsen-Weimar-Eisenach%29%40Schloss_Tiefurt.JPG",
         "https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/06/29/12250349/2318x2318_562e56fc7e1cb.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Aŭgust_Mocny._Аўгуст_Моцны_%28H._Rodakowski%2C_XIX%29.jpg/220px-Aŭgust_Mocny._Аўгуст_Моцны_%28H._Rodakowski%2C_XIX%29.jpg"
+      ]
+    },
+    {
+      "id" : 3,
+      "desc" : "John II Casimir Vasa, Polish Jan Kazimierz Waza (born March 22, 1609, Kraków, Pol.—died Dec. 16, 1672, Nevers, France), king of Poland (1648–68) and pretender to the Swedish throne, whose reign was marked by heavy losses of Polish territory incurred in wars against the Ukrainians, Tatars, Swedes, and Russians. The second son of Sigismund III Vasa, king of Poland and of Sweden, John Casimir fought on the Habsburg side against France during the Thirty Years’ War from 1635 until, on his way to Spain to assume the office of admiral, he was arrested by the French and imprisoned for two years (1638–40). After his release he decided to forgo military life and became a Jesuit novice (1646), but he resigned his position a year later. A few months after the death of his brother King Władysław IV in May 1648, John Casimir was elected to the Polish throne and soon married Marie Louise de Gonzague-Nevers, his brother’s widow. John Casimir tried to end an insurrection of Poland’s semiautonomous Ukrainian Cossack subjects by negotiation but was forced to continue the war by Polish nobles who wished to increase their control over Ukraine. He defeated the Cossacks and their Tatar allies at Beresteczko June 28–30, 1651, but the fighting began anew when the Cossacks submitted themselves to the Russian tsar in return for military aid. While the Polish army was fighting on the eastern border of Poland, the Swedish army invaded from the west and occupied most of the country by October 1655. John Casimir fled abroad but returned in 1656 when Polish peasants and gentry rebelled against Swedish control. At the conclusion of the war with Sweden in 1660, he had to renounce his rights to the Swedish throne and to northern Livonia. In January 1667 Poland signed the Truce of Andrusovo with Russia, whereby half of Belorussia (with Smolensk), Chernigov (modern Chernihiv, Ukraine), and all of Ukraine east of the Dnieper River, as well as Kiev, west of the river, were ceded to Russia. Disgusted with external warfare, facing a rebellion by the Diet, and in mourning after the death of his wife, the king abdicated (Sept. 16, 1668) and retired to France, where he served as titular abbot of Saint-Germain-des-Prés until his death in 1672.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/59/Bacciarelli_-_Jan_Kazimierz.jpeg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Kr%C3%B3lewicz_Jan_Kazimierz.jpg/170px-Kr%C3%B3lewicz_Jan_Kazimierz.jpg",
+        "http://l7.alamy.com/zooms/b0650730a44c4555a9e0a7d6f2478df3/john-ii-casimir-2131609-16121672-king-of-poland-november-1648-1691668-b2jwn4.jpg",
+        "http://geneall.net/images/names/pes_3808.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/90/Schultz_John_II_Casimir_Vasa.jpg"
+      ]
+    },
+    {
+      "id" :4,
+      "desc": "Michael Wiśniowiecki, Polish in full MichaŁ Korybut Wiśniowiecki (born July 31, 1640, Lwów, Pol.—died Nov. 10, 1673, Lwów), king of Poland (1669–73), whose reign was marked by struggles between the pro-Habsburg and pro-French political factions.A native Pole and descendant of Korybut, brother of King Władysław II Jagiełło, Michael was freely elected by the unanimous vote of the Polish nobility; but he was chosen chiefly for the merit of his father, Jérémi Wiśniowiecki, a great border magnate who had victoriously kept down the Cossacks, and he proved to be a passive tool in the hands of the Habsburgs. In view of this, the French party rallied round Jan Sobieski, a military commander of rising fame. The dissensions between the two camps cost Poland a new defeat at the hands of the united Turks and Cossacks. Sealed by the Treaty of Buczacz (Buchach; 1672), by which all Polish Ukraine came under Turkish suzerainty, this defeat was wiped out only by a brilliant victory of Sobieski’s at Khotin (1673), which also, after King Michael’s early death, carried him to the throne (as John III Sobieski) against an Austrian candidate.",
+      "images" : [
+        "https://faculty.history.wisc.edu/sommerville/351/351images/korybut.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bacciarelli_-_Micha%C5%82.jpeg/180px-Bacciarelli_-_Micha%C5%82.jpeg",
+        "http://www.angelfire.com/mi4/polcrt/images/MWisniowiecki.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3c/King_Michael_Korybut_of_Poland.jpg",
+        "https://s-media-cache-ak0.pinimg.com/236x/4a/46/d9/4a46d9c944e3328aacf3374e8aa54761--poland.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "desc": "Augustus III, also called Augustus Frederick, Polish August III Wettin, German August Friedrich (born Oct. 17, 1696, Dresden, Saxony [Germany]—died Oct. 5, 1763, Dresden), king of Poland and elector of Saxony (as Frederick Augustus II), whose reign witnessed one of the greatest periods of disorder within Poland. More interested in ease and pleasure than in affairs of state, this notable patron of the arts left the administration of Saxony and Poland to his chief adviser, Heinrich von Brühl, who in turn left Polish administration chiefly to the powerful Czartoryski family.The only legitimate son of Frederick Augustus I of Saxony (Augustus II of Poland), he followed his father’s example by joining the Roman Catholic Church in 1712. In 1719 he married Maria Josepha, daughter of the Holy Roman emperor Joseph I. He became elector of Saxony on his father’s death (1733). As a candidate for the Polish crown, he secured the support of the emperor Charles VI by assenting to the Pragmatic Sanction of 1713, designed to preserve the integrity of the Habsburg inheritance, and that of the Russian empress Anna by supporting Russia’s claim to Courland. Chosen king by a small minority of electors on Oct. 5, 1733, he drove his rival, the former Polish king Stanisław I Leszczyński, into exile. He was crowned in Kraków on Jan. 17, 1734, and was generally recognized as king in Warsaw in June 1736. Augustus gave Saxon support to Austria against Prussia in the War of the Austrian Succession (1742) and again in the Seven Years’ War (1756). His last years were marked by the increasing influence of the Czartoryski and Poniatowski families, and by the intervention of Catherine the Great of Russia in Polish affairs. His rule deepened the anarchization of Poland and increased the country’s dependence on its neighbours.",
+      "images" : [
+        "https://upload.wikimedia.org/wikipedia/commons/4/4e/Louis_de_Silvestre_-_Portrait_of_Augustus_III_of_Poland_(after_1733)_-_Google_Art_Project.jpg",
+        "https://1.bp.blogspot.com/_pzICWg_Xk24/R02bWIiwczI/AAAAAAAAAXw/GB5vI6P9kT0/s400/449px-Largilliere-Auguste_keurvorst_von_saksen_1715.jpg",
+        "https://media1.britannica.com/eb-media/95/13295-004-C6C270A9.jpg",
+        "https://uploads4.wikiart.org/images/jan-matejko/augustus-iii-of-poland.jpg",
+        "http://gameo.org/images/thumb/1/1a/ME1_189.jpg/300px-ME1_189.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/bc/Silvestre_Augustus_III_in_Polish_costume.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "desc" : "Stanisław II August Poniatowski, original name StanisŁaw Poniatowski (born Jan. 17, 1732, Wołczyn, Pol.—died Feb. 12, 1798, St. Petersburg, Russia), last king of an independent Poland (1764–95). He was unable to act effectively while Russia, Austria, and Prussia dismembered his nation. He was born the sixth child of Stanisław Poniatowski, a Polish noble, and his wife, Princess Konstancja Czartoryska. After a careful education he traveled in western Europe as a young man. In 1757 he was sent by his mother’s enormously powerful family to St. Petersburg to obtain Russian support for their plan to dethrone the Polish king Augustus III. While at the Russian court, he apparently did little for the family’s interests but succeeded in becoming the lover of the future empress, Catherine II. Poland at this time was in a period of steady decline, and, following the death of Augustus III in 1763, Catherine sought to ensure that the situation continued. Seeing the young Poniatowski as a convenient pawn, she used Russian troops and Russian influence to ensure his election as Stanisław II on Sept. 7, 1764. After coming to the throne Stanisław sought to bolster his royal power, improve the administration of government, and strengthen the parliamentary system. These reforms were opposed by some Polish nobles and by Catherine, who threatened to have him deposed. The reforms were dropped, and Catherine then interfered in Poland even further by pressing for full rights for non-Catholic religious dissenters. A revolt by Roman Catholics followed in 1768 and was not fully suppressed for four years. Its effect was to make Stanisław even more dependent on Russian support. In 1772 Russia, Prussia, and Austria each annexed portions of Polish territory, despite Stanisław’s appeals to the Western powers. In the years following this partition, Stanisław saw his own personal power cut away and limited by the manipulations of the partitioning powers. Fighting back, he succeeded in strengthening his position and achieved a full reform of Polish education. A more basic requirement to prevent further national decay was constitutional reform; after long and arduous debate, the Sejm (Diet) finally approved a new constitution on May 3, 1791. To oppose this constitution, the Confederation of Targowica was formed by a group of Polish nobles with Russian backing. In a subsequent invasion by Russia, despite valiant efforts by a small Polish army, the Russians succeeded in crushing the movement for a new constitution.",
+      "images" : [
+        "https://upload.wikimedia.org/wikipedia/commons/9/99/August_Poniatowski.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Werner_Stanislaus_Augustus_in_coronation_robes.jpg/240px-Werner_Stanislaus_Augustus_in_coronation_robes.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Stanislas_Auguste_Poniatowski.jpg/440px-Stanislas_Auguste_Poniatowski.jpg",
+        "http://geneall.net/images/names/pes_989657.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5f/Stanislas_II_August_Poniatowski.PNG"
+      ]
+    },
+    {
+      "id" : 7,
+      "desc" : "Frederick I, (born July 11, 1657, Königsberg, Prussia [now Kaliningrad, Russia]—died Feb. 25, 1713, Berlin), elector of Brandenburg (as Frederick III), who became the first king in Prussia (1701–13), freed his domains from imperial suzerainty, and continued the policy of territorial aggrandizement begun by his father, Frederick William, the Great Elector. In 1688 Frederick succeeded to the electorate and at once set out, assisted by the capable Eberhard von Danckelmann, his boyhood tutor, now prime minister, on the course that was to yield him a monarch’s crown 13 years later. Frederick maintained a large, splendid court and an army out of proportion to his territories and position to further his pretensions. In European politics, he allied himself with Austria and the sea powers (England and Holland) against France. Prussian troops were sent to the Netherlands (1688) to protect William of Orange’s continental lands against expected French attacks when William crossed the Channel to accept the English crown. By this act Frederick hoped to gain the Dutch stadholdership for himself or his descendants, but he was eventually frustrated. Although, in the wars of the Grand Alliance against Louis XIV (1689–97), Prussia’s contingents in the imperial army distinguished themselves everywhere, Prussia emerged practically unrewarded at the Treaty of Rijswijk (1697). On Nov. 16, 1700, however, Austria and Prussia signed a secret treaty that permitted Frederick to crown himself king in Prussia, thus finally realizing his long-cherished ambition. Austria agreed to this elevation primarily to gain Prussian aid in the threatening war against France over the succession to the Spanish throne. In return, Frederick promised to send 8,000 troops beyond the normal Prussian contingent to the imperial army, to give preference to Habsburg candidates in imperial elections, and to vote with Austria on all important matters in the German Diet as far as Prussian interests permitted. Thus, when Frederick crowned himself in Königsberg on Jan. 18, 1701, Prussia was saddled with weighty obligations. Only his son, Frederick William I, and his grandson, Frederick II the Great, were able to exploit Prussia’s enhanced position to the full and transform the new kingdom into a great European power. During the War of the Spanish Succession (1701–14), Frederick remained a loyal ally to Austria, and Prussia’s military contribution proved outstanding; but again, at the Treaty of Utrecht (1713), Frederick’s territorial rewards were small, consisting of the Swiss canton of Neuchâtel and a few enclaves on the lower Rhine.",
+      "images" : [
+        "https://upload.wikimedia.org/wikipedia/commons/5/50/Frederick_I_of_Prussia_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f2/Antoine_Pesne%3B_Frederik_I_von_Preußen.jpg",
+        "http://www.rheinsberger-see.de/Friedrich%20I%20PB.jpg",
+        "http://www.barockgemaelde.de/friedrich_I_gesicht.JPG"
+      ]
+    },
+    {
+      "id" : 8,
+      "desc" : "Frederick William I, German Friedrich Wilhelm I (born August 14, 1688, Berlin—died May 31, 1740, Potsdam, Prussia), second Prussian king, who transformed his country from a second-rate power into the efficient and prosperous state that his son and successor, Frederick II the Great, made a major military power on the Continent. The son of the elector Frederick III, later Frederick I, king of Prussia, Frederick William grew up at a glamorous court, but his own temperament was ascetic, and he disapproved of the court’s dissolute atmosphere. In 1706 he married Sophia Dorothea, the daughter of George Louis, elector of Hanover (later George I of England). His experiences in the War of the Spanish Succession (1701–14) decisively shaped his future, leading him to realize that the army was his vocation. Leopold I, prince of Anhalt-Dessau, who commanded the Prussian contingent in that war, became his lifelong friend and principal adviser in military matters.Frederick William was to spend the rest of his life building the Prussian army into Europe’s best fighting instrument. Realizing that Prussia’s military and financial weakness made it dependent on the relations between the great powers, Frederick William resolved to make his state financially independent.In 1713 Prussia’s armed forces numbered 38,000 soldiers, supported in large part by foreign subsidies. When Frederick William died in 1740, he left his son an army of about 83,000 out of a population of 2,200,000, a war chest of more than 8,000,000 taler, and a Prussia that had become the third military power on the European continent, after Russia and France.The canton system of recruitment and replacement, introduced in 1733, provided one-half the manpower of Frederick William’s army from the Prussian peasantry. The rest of the soldiers were recruited from all over Europe. Frederick William also created from his fractious nobility the loyal Prussian officer corps. Prince Leopold I of Anhalt-Dessau, a brutal, if efficient, drillmaster, provided the instrument wielded by these officers—the Prussian infantry, which could outmarch and outshoot all others.The need for funds, coupled with Frederick William’s genuine concern for his subjects, led to a number of sweeping reforms and innovations. A thrifty, practical Protestant, the king on his accession all but dissolved his extravagant court. Prussia’s eastern territories, depopulated by the plague of 1709, were resettled and made prosperous once again. The lot of the peasantry improved. In his own domains, which eventually comprised one-third of all the land, Frederick William freed the serfs completely (1719) and abolished hereditary leases. In 1717 a yearly tax replaced the aristocracy’s feudal war service. Against considerable opposition, he levied additional taxes in Prussia and Lithuania. Prussia’s commercial policies were strictly mercantilist, encouraging industry and manufacture, especially the wool industry, which clothed the king’s army. Convinced that an efficient state could not afford illiterate subjects, Frederick William instituted compulsory primary education in 1717. In 1723 he centralized his administration under a general directory through which his ministers executed his orders. Near the end of his reign, he initiated a program of extensive legal codification. Thus, Frederick William left his heir an efficient, centralized state with sound finances and an excellent army.",
+      "images" : [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e7/Antoine_Pesne_-_König_Friedrich_Wilhelm_I._von_Preußen_%28ca._1733%29.jpg",
+        "http://www.preussenchronik.de/bilder/433_Friedrich_Wilhelm_I__von_Preussen.jpeg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Friedrich_Wilhelm_I_um_1701.jpg/220px-Friedrich_Wilhelm_I_um_1701.jpg",
+        "https://www.preussen.de/Bilder/Geschichte/friedrich_wilhelm_I./friedrich_wilhelm_I_LDM.jpg",
+        "http://www.artnet.com/WebServices/images/ll00134lldQS9GFgVeECfDrCWvaHBOc9BFE/georg-wenzeslaus-von-knobelsdorff-portrait-of-king-friedrich-wilhelm-i-of-prussia.jpg"
+      ]
+    },
+    {
+      "id" : 9,
+      "desc" : "Frederick II, byname Frederick the Great, German Friedrich der Grosse (born January 24, 1712, Berlin, Prussia [Germany]—died August 17, 1786, Potsdam, near Berlin), king of Prussia (1740–86), a brilliant military campaigner who, in a series of diplomatic stratagems and wars against Austria and other powers, greatly enlarged Prussia’s territories and made Prussia the foremost military power in Europe. An enlightened absolute monarch, he favoured French language and art and built a French Rococo palace, Sanssouci, near Berlin. Frederick, the third king of Prussia, ranks among the two or three dominant figures in the history of modern Germany. Under his leadership Prussia became one of the great states of Europe. Its territories were greatly increased and its military strength displayed to striking effect. From early in his reign Frederick achieved a high reputation as a military commander, and the Prussian army rapidly became a model admired and imitated in many other states. He also emerged quickly as a leading exponent of the ideas of enlightened government, which were then becoming influential throughout much of Europe; indeed, his example did much to spread and strengthen those ideas. Notably, his insistence on the primacy of state over personal or dynastic interests and his religious toleration widely affected the dominant intellectual currents of the age. Even more than his younger contemporaries, Catherine II the Great of Russia and Joseph II in the Habsburg territories, it was Frederick who, during the mid-18th century, established in the minds of educated Europeans a notion of what “enlightened despotism” should be. His actual achievements, however, were sometimes less than they appeared on the surface; indeed, his inevitable reliance on the landowning officer (Junker) class set severe limits in several respects to what he could even attempt. Nevertheless, his reign saw a revolutionary change in the importance and prestige of Prussia, which was to have profound implications for much of the subsequent history of Europe.",
+      "images" : [
+        "https://media1.britannica.com/eb-media/18/19018-004-7B3F97EB.jpg",
+        "https://s-media-cache-ak0.pinimg.com/originals/59/12/49/591249fe15694af8879559d8f4c08ff6.jpg",
+        "https://s-media-cache-ak0.pinimg.com/736x/58/b9/ca/58b9cac76318cc14e790f3fa15f839b4--frederick-the-great-king-of-prussia.jpg",
+        "https://s-media-cache-ak0.pinimg.com/236x/50/46/ef/5046efe2caee6697a9d461560e310285--frederick-the-great-il-grande.jpg",
+        "https://s-media-cache-ak0.pinimg.com/236x/b3/67/21/b36721fd011443c0f8965cc559bdb374.jpg"
       ]
     }
   ]
