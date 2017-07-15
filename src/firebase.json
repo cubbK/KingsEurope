@@ -103,6 +103,70 @@
       ],
       "time": "1740–1786",
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Friedrich_Zweite_Alt.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Friedrich Wilhelm II",
+      "titles" : [
+        "King of Prussia",
+        "Elector of Brandenburg"
+      ],
+      "time" : "1786–1797",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/f/f0/Frederick_Wilhelm_II.png"
+    },
+    {
+      "id" : 11,
+      "name" : "Hugues Capet",
+      "titles" : [
+        "King of the Franks"
+      ],
+      "time": "987–996",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/HugoKapet_kronika.jpg"
+    },
+    {
+      "id": 12,
+      "name" : "Robert II, le Pieux",
+      "titles" : [
+        "King of the Franks"
+      ],
+      "time": "996–1031",
+      "image": "http://www.france-pittoresque.com/IMG/jpg/Robert-Pieux-2.jpg"
+    },
+    {
+      "id" :13,
+      "name": "Henri I",
+      "titles" : [
+        "King of the Franks"
+      ],
+      "time" : "1031–1060",
+      "image" :"https://upload.wikimedia.org/wikipedia/commons/f/fe/Henry1_head.jpg"
+    },
+    {
+      "id": 14,
+      "name" : "Philip I of France",
+      "titles" : [
+        "King of the Franks"
+      ],
+      "time" : "1059–1108",
+      "image" : "https://s3-us-west-2.amazonaws.com/find-a-grave-prod/photos/2011/56/53676134_129873752075.jpg"
+    },
+    {
+      "id" : 15,
+      "name" :"Louis VI, le Gros",
+      "titles" : [
+        "King of the Franks"
+      ],
+      "time" : "1108–1137",
+      "image" : "https://s-media-cache-ak0.pinimg.com/originals/47/65/d2/4765d2b4868c8a764c03dbbf55c76269.gif"
+    },
+    {
+      "id" :16,
+      "name" : "Louis VII, le Jeune",
+      "titles" : [
+        "King of the Franks"
+      ],
+      "time" : "1137–1180",
+      "image" : "https://s-media-cache-ak0.pinimg.com/originals/47/1b/b1/471bb12eeb90079b51956bae21f620db.jpg"
     }
   ],
   "detailed":[
@@ -214,6 +278,74 @@
         "https://s-media-cache-ak0.pinimg.com/736x/58/b9/ca/58b9cac76318cc14e790f3fa15f839b4--frederick-the-great-king-of-prussia.jpg",
         "https://s-media-cache-ak0.pinimg.com/236x/50/46/ef/5046efe2caee6697a9d461560e310285--frederick-the-great-il-grande.jpg",
         "https://s-media-cache-ak0.pinimg.com/236x/b3/67/21/b36721fd011443c0f8965cc559bdb374.jpg"
+      ]
+    },
+    {
+      "id" : 10,
+      "desc" : "Frederick William II, (born September 25, 1744, Berlin, Prussia [now in Germany]—died November 16, 1797, Berlin), king of Prussia from August 17, 1786, under whom, despite his lack of exceptional military and political gifts, Prussia achieved considerable expansion. The son of Frederick the Great’s brother Augustus William, he became heir presumptive on his father’s death in 1758. He was intellectually receptive and devoted to the arts, but when he succeeded Frederick the Great as king, he was unable to perpetuate his uncle’s system of personal government; the direction of the Prussian state fell to a few favourites. Nevertheless, Prussia grew: it acquired Ansbach and Bayreuth when the margrave Charles Alexander renounced his territories (1791), and it gained Danzig (Gdańsk), Thorn (Toruń), and a large part of central Poland (including Warsaw) in the Second (1793) and Third (1795) Partitions of that country. In foreign affairs Frederick William cooperated with the Holy Roman emperor Leopold II and entered into an Austro-Prussian alliance (February 7, 1792), chiefly because of a common opposition to the French Revolution. In the War of the First Coalition, Frederick William’s preoccupation with getting his share of Poland led him to conduct the war halfheartedly, and in 1795 he withdrew from the coalition by concluding the separate Treaty of Basel. In domestic affairs the king gained easy popularity by abolishing the state monopoly on coffee and tobacco, although the loss of revenue had to be made good by increasing the excise duty on beer, flour, and sugar. Frederick William’s most notorious domestic measure was the Religionsedikt (“Religious Edict”) of 1788, largely the work of his favourite, Johann Christoph von Wöllner. It gave legal recognition to the principle of toleration while restricting the freedom of religious instruction and binding the clergy to a narrow Protestantism. Although it was zealously enforced (Immanuel Kant was reprimanded and several important journals moved abroad to avoid censorship), the act proved ineffective. A notable law code (Allgemeines Preussisches Landrecht) including various liberal statutes, however, was promulgated (1794). Under Frederick William cultural activities flourished, mostly in Berlin. Painting, architecture, and the theatre were encouraged, and especially music: Mozart and Beethoven visited the King and dedicated chamber music to him, and Frederick William himself played the cello. He contracted two dynastic marriages, the first of which was dissolved. During the lifetime of both his royal consorts he also contracted two morganatic marriages. His son by the second of these wives, Sophia Juliana, Gräfin Dönhoff, was the future statesman Friedrich Wilhelm, Graf von Brandenburg.",
+      "images" : [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Friedrich_Wilhelm_II._%28Reclam%29.jpg/1200px-Friedrich_Wilhelm_II._%28Reclam%29.jpg",
+        "https://68.media.tumblr.com/tumblr_m4fmikgiHL1r7jedvo1_500.jpg",
+        "http://www.gemeinde-michendorf.de/homepage/35heimatgeschichte/menschen/adel/1786_friedrich_wilhelm_II.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/28/Friedrich_Wilhelm_II.%2C_König_von_Preußen_%28Graff_Kopie%29.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "desc": "Hugh Capet, French Hugues Capet (born 938—died October 14, 996, Paris, France), king of France from 987 to 996, and the first of a direct line of 14 Capetian kings of that country. The Capetian dynasty derived its name from his nickname (Latin capa, “cape”). Hugh was the eldest son of Hugh the Great, duke of the Franks. On his father’s death in 956, Hugh Capet inherited vast estates in the regions of Paris and Orléans, extending in some places south of the Loire River. He thus became one of the most powerful vassals in the kingdom and a serious danger to the Carolingian king, Lothar. Hugh married Adelaide, daughter of William III, duke of Aquitaine, in 970, but his efforts to extend his influence into that southwestern kingdom were unsuccessful. From 978 to 986 Hugh was allied with the German emperors Otto II and Otto III and with Adalbero, archbishop of Reims, in political intrigues against the Carolingian king. By 985 Hugh was actually the ruler in all but title; and, after the brief reign of Lothar’s son, Louis V (986–987), Hugh was elected king of France in May 987 by the assembly of Frankish magnates. Adalbero was able to convince the magnates that the crown was elective rather than hereditary and that Charles of Lorraine, the only legitimate Carolingian contender, was unfit to rule. Hugh was crowned at Noyon on July 5, 987. Scholars are generally agreed that Hugh’s election was not a revolutionary action. His grandfather Robert I, his great-uncle Eudes, and his uncle Rudolf (Raoul) had all earlier been non-Carolingian kings.Hugh’s reign was marked by the unavailing efforts of Charles of Lorraine (imprisoned 991) to assert himself and by continual conflict between Eudes I, count of Blois, and Fulk Nerra of Anjou, whom Hugh later supported. In 993 Eudes was aided by the bishop of Laon in an unsuccessful conspiracy to deliver Hugh and his son Robert over to Otto III. That no one was punished for the incident indicated the weakness of the new Capetian dynasty. Hugh’s crown was probably preserved by the inability of his enemies to coordinate their activities against him. The Capetian dynasty’s subsequent rule for more than 300 years has invested Hugh Capet’s reign with a greater significance than his actual achievements merit. Very soon after ascending the throne, Hugh Capet arranged the coronation (December 987) of his own son, Robert, who upon Hugh’s death succeeded to the throne without difficulty. This practice of crowning the heir during the father’s lifetime was continued by the Capetians until the time of Louis VII and undoubtedly contributed to the dynasty’s stability and longevity.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Hugues_Ier_Capet.jpg/220px-Hugues_Ier_Capet.jpg",
+        "https://download.vikidia.org/vikidia/fr/images/thumb/f/f0/Hugues_capet.jpg/200px-Hugues_capet.jpg",
+        "http://p6.storage.canalblog.com/69/37/151720/8102355.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/SceauHuguesCapet.PNG/180px-SceauHuguesCapet.PNG"
+      ]
+    },
+    {
+      "id": 12,
+      "desc": "Robert II, byname Robert The Pious, French Robert Le Pieux (born c. 970, Orléans, Fr.—died July 20, 1031, Melun), king of France who took Burgundy into the French realm. The son of Hugh Capet, founder of the Capetian dynasty, and Adelaide of Aquitaine, Robert was educated at the episcopal school of Reims under Gerbert of Aurillac, later Pope Sylvester II. Soon after his own coronation (July 987), Hugh prudently arranged the election and coronation (December 987) of Robert, thus facilitating his son’s eventual succession (October 996) as sole ruler. His excommunication as a result of his marriage within the prohibited degrees of relationship was eventually lifted after the repudiation of the childless Bertha in 1001. Constance of Arles, whom the King married two years later, was the mother of his successor, Henry I. Robert’s domain was not extensive; and, to increase his power, he vigorously and tenaciously pressed his claim to fiefs as they became vacant. Thus, when the duke of Burgundy died without an heir (1002), Robert went to war against a rival claimant. Only in 1015, however, did he finally succeed in subduing the rich duchy. (The gain was transitory, for in 1032 Henry I granted Burgundy to his brother, Robert, and it thereafter remained for centuries outside royal control.) A patron of the Cluniac monastic movement, Robert apparently ruled firmly and judiciously in his own lands.",
+      "iamges": [
+        "http://photos.geni.com/p5/2710/0355/53444836787ecad5/250px-Robert_II_of_France_large.jpg",
+        "https://s-media-cache-ak0.pinimg.com/originals/07/e8/ee/07e8ee3650042b2efaa5f3c27cd656d3.jpg",
+        "https://s-media-cache-ak0.pinimg.com/originals/b0/a3/3e/b0a33e44c4a078e2e18852f62d0d1fc3.jpg",
+        "https://s-media-cache-ak0.pinimg.com/236x/d1/32/da/d132dacb4f8d0e3ecf0e6dfca56b88dd--normandy-adele.jpg"
+      ]
+    },
+    {
+      "id" : 13,
+      "desc": "Henry I, (born c. 1008—died Aug. 2 or 4, 1060, Vitry-aux-Loges, France), king of France from 1026 to 1060 whose reign was marked by struggles against rebellious vassals. The son of Robert II the Pious and grandson of Hugh Capet, founder of the Capetian dynasty, Henry was anointed king at Reims (1026) in his father’s lifetime, following the death of his elder brother Hugh. His mother, Constance, however, favoured his younger brother Robert for the throne, and civil war broke out on King Robert II’s death (1031). The younger Robert was given Burgundy in 1032, after Henry had sought refuge with Robert, Duke of Normandy. From 1033 to 1043 Henry struggled with his feudatories, notably Eudes of Blois and his brother Robert. In 1055, as the result of an agreement made by Robert II, the county of Sens came to the crown as the sole territorial gain of Henry’s reign. He attempted to strengthen his rulership through new court officials, and he twice contracted an important marriage alliance with members of the Salian dynasty, rulers of the Holy Roman Empire: he was betrothed to Conrad II’s niece, who died before the marriage could be formalized, and married Henry III’s daughter. Henry helped William (the future William I of England), Robert’s successor as duke of Normandy, to quell his rebellious vassals at the Battle of Val-aux-Dunes (or Val-ès-Dunes; 1047), but he was thereafter usually at war with him—a notable defeat for the king being that at Varaville (1058). Henry tried to resist papal interference but could not prevent Pope Leo IX from holding a council at Reims (1049). Philip, elder son of Henry’s marriage to Anne of Kiev, was crowned in 1059.",
+      "images": [
+        "https://www.wikitree.com/photo.php/e/eb/Henri_I.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/fe/Henry1_head.jpg"
+      ]
+    },
+    {
+      "id" : 14,
+      "desc" : "Philip I, (born 1052—died July 29/30, 1108, Melun, France), king of France (1059–1108) who came to the throne at a time when the Capetian monarchy was extremely weak but who succeeded in enlarging the royal estates and treasury by a policy of devious alliances, the sale of his neutrality in the quarrels of powerful vassals, and the practice of simony on a huge scale. Philip was the elder son of Henry I of France by his second wife, Anne of Kiev. Crowned at Reims in May 1059, he became sole king on his father’s death in 1060; Baldwin V, count of Flanders, exercised the regency. Two years after he came of age in 1066, he obtained the county of Gâtinais as the price of his neutrality in a family struggle over Anjou and thereby linked the royal possessions in Sens with those around Paris, Melun, and Orléans. His major efforts, however, were directed toward Normandy, in which from 1076 he supported Robert II Curthose, its ineffectual duke, first against Robert’s father, King William I of England, then against Robert’s brother, William II. Philip’s true goal was to prevent emergence of a rival power in Normandy, for he was willing to abandon Robert whenever it seemed possible he might become dangerous. Because of his firm determination to retain control over all appointments to ecclesiastical posts, which he blatantly sold, Philip was eventually drawn into conflict with the papacy, which nonetheless did not assume the disastrous proportions of the similar struggle over investitures in the Holy Roman Empire. This conflict was exacerbated by his matrimonial affairs; his scandalous “marriage” with Bertrada de Montfort, wife of a vassal, brought him repeated excommunication. By 1107, when the French monarchy’s struggle with the papacy was finally ended, Louis VI, Philip’s son by his legitimate wife, Bertha, had taken over the administration of the kingdom, Philip having been rendered inactive by his extreme obesity.",
+      "images" : [
+        "https://media1.britannica.com/eb-media/52/132752-004-37C125A5.jpg",
+        "https://s3-us-west-2.amazonaws.com/find-a-grave-prod/photos/2011/56/53676134_129873752075.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Philippe1France.JPG/220px-Philippe1France.JPG",
+        "http://freepages.genealogy.rootsweb.ancestry.com/~chatweb/philipi2.jpg"
+      ]
+    },
+    {
+      "id" : 15,
+      "desc" : "Louis VI, byname Louis the Fat, French Louis le Gros (born 1081—died Aug. 1, 1137), king of France from 1108 to 1137; he brought power and dignity to the French crown by his recovery of royal authority over the independent nobles in his domains of the Île-de-France and the Orléanais. Louis was designated by his father, Philip I, as his successor in 1098 and was already effectively the ruler well before Philip’s death in 1108. He quickly recognized that his priority must be to bring the unruly barons of the royal lands under firm control, and he spent much of his reign in conflict with such men as Hugh de Puiset. His success won him the respect of his greater vassals and was crucial to later Capetian expansion. From his pacification program Louis developed several important concepts for future kings: for example, that the king was a vassal of no man. Louis usually had a good relationship with the church and clergy. He has been presented by some historians as the father of communes or towns, but in fact he recognized towns only out of circumstance rather than from principle.Louis’s major wars were against King Henry I of England during the periods 1104–13 and 1116–20. When Charles the Good, count of Flanders, was assassinated in 1127, Louis supported William Clito, who became the successor; even though William was eventually toppled, Louis’s actions demonstrated the new strength of the monarchy. In 1124 he was able to muster forces from many parts of France to counter a threatened invasion by the Holy Roman emperor Henry V, identifying himself as the vassal of St. Denis, the patron saint of France, whose banner he carried. Louis’s last major achievement was to arrange a marriage between his son Louis VII and Eleanor, heiress of William X, duke of Aquitaine. Abbot Suger of Saint-Denis, a most trusted adviser, is the primary historian for Louis’s reign.",
+      "images" : [
+        "https://media1.britannica.com/eb-media/98/133398-004-F23EE8FC.jpg",
+        "https://s-media-cache-ak0.pinimg.com/originals/ee/21/68/ee2168970db3f7e30d7ec6a6075cbc64.jpg",
+        "http://www.claude.dupras.com/louisVI_legros.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Sceau_de_Louis_VI.jpg/1200px-Sceau_de_Louis_VI.jpg"
+      ]
+    },
+    {
+      "id" : 16,
+      "desc" : "Louis VII, byname Louis The Younger, French Louis Le Jeune (born c. 1120—died Sept. 18, 1180, Paris), Capetian king of France who pursued a long rivalry, marked by recurrent warfare and continuous intrigue, with Henry II of England. In 1131 Louis was anointed as successor to his father, Louis VI, and in 1137 he became the sole ruler at his father’s death. Louis married Eleanor, daughter of William X, duke of Aquitaine, in 1137, a few days before his effective rule began, and he thus temporarily extended the Capetian lands to the Pyrenees. Louis continued his father’s pacification program by building the prestige of the kingship through an administrative government based on trustworthy men of humble origin and by consolidating his rule over his royal domains rather than by adding new acquisitions. From 1141 to 1143 he was involved in a fruitless conflict with Count Thibaut of Champagne and the papacy. But thereafter his relations with the popes were good; Alexander II, whom he supported against Frederick Barbarossa, took refuge in France. But the major threat to his reign came from Geoffrey, count of Anjou and, briefly, of Normandy, and Geoffrey’s son Henry, who later (1154) became King Henry II of England as well as ruler of both Anjou and Normandy. After Louis repudiated his wife Eleanor for misconduct on March 21, 1152, she married Henry, who then took over control of Aquitaine. Ironically, this act was probably to Capetian advantage because Aquitaine might have drained the resources of Louis’s kingdom while bringing him little revenue. After the death of Louis’s second wife, he married Alix of Champagne, whose Carolingian blood brought added prestige to the monarchy (1160); their son became Philip II Augustus.",
+      "images" : [
+        "https://media1.britannica.com/eb-media/99/133399-004-230B2B59.jpg",
+        "https://s-media-cache-ak0.pinimg.com/originals/47/1b/b1/471bb12eeb90079b51956bae21f620db.jpg",
+        "http://skepticism-images.s3-website-us-east-1.amazonaws.com/images/jreviews/Louis-VII-Engraving.jpg",
+        "https://s-media-cache-ak0.pinimg.com/originals/7d/3f/94/7d3f947f1e23dd49b21627a09f785945.jpg"
       ]
     }
   ]
