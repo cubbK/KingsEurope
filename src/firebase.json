@@ -243,7 +243,26 @@
         "King of Navarre"
       ],
       "time" : "1322–1328",
-      "image" : "https://en.wikipedia.org/wiki/Charles_IV_of_France#/media/File:Charles_IV_Le_Bel.jpg"
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/9/93/Charles_IV_Le_Bel.jpg"
+    },
+    {
+      "id" : 25,
+      "name" : "Philippe VI",
+      "titles" : [
+        "King of France"
+      ],
+      "time" : "1328–1350",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/9/93/Phil6france.jpg"
+    },
+    {
+      "id" : 26,
+      "name" : "Konrad I",
+      "titles" : [
+        "King of East Francia",
+        "Duke of Franconia"
+      ],
+      "time": "911–918",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/9/9a/KonradSiegel.jpg"
     }
   ],
   "detailed":[
@@ -504,6 +523,25 @@
         "https://upload.wikimedia.org/wikipedia/commons/0/01/Mariage_de_Charles_IV_le_Bel_et_de_Marie_de_Luxembourg.jpg",
         "http://www.nndb.com/people/971/000093692/charles-iv-france-1-sized.jpg",
         "https://s-media-cache-ak0.pinimg.com/originals/a6/08/4f/a6084f6b7bdc2f6caeba024bd716f77c.jpg"
+      ]
+    },
+    {
+      "id" : 25,
+      "desc" : "Philip VI (French: Philippe VI) (1293 – 22 August 1350), called the Fortunate (French: le Fortuné) and of Valois, was the first King of France from the House of Valois. He reigned from 1328 until his death.Philip's reign was dominated by the consequences of a succession dispute. When King Charles IV the Fair died without a male heir in 1328, the nearest male relative was his nephew Edward III of England, who inherited his claim through his mother Isabella of France, the sister of the dead king. It was held in France, however, that Edward was ineligible to inherit the French throne through the female line according to the ancient Salic Law. At first, Edward seemed to accept Philip's accession as the nearest male relative of Charles IV descended through the male line, however he pressed his claim to the throne of France after a series of disagreements with Philip. The result was the beginning of the Hundred Years' War in 1337.After initial successes at sea, Philip's navy was annihilated at the Battle of Sluys in 1340, ensuring that the war would occur on the continent. The English took another decisive advantage at the Battle of Crécy (1346), while the Black Death struck France, further destabilizing the country. In 1349, Philip VI bought the Dauphiné from its ruined ruler Humbert II and entrusted the government of this province to his grandson Charles. Philip VI died in 1350 and was succeeded by his son John II the Good.",
+      "images" : [
+        "https://upload.wikimedia.org/wikipedia/commons/9/9d/Philippe_VI_de_Valois.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/a5/Philippe_VI_and_Jeanne_de_Bourgogne.jpg",
+        "http://photos.geni.com/p7/9786/2655/53444836fa5999f5/Philippe6devalois_large.jpg",
+        "http://c8.alamy.com/comp/FWEGTF/philip-vi-of-valois-philipp-vi-philippe-vi-de-valois-1293-1350-called-FWEGTF.jpg"
+      ]
+    },
+    {
+      "id" : 26,
+      "desc" : "Conrad I (German: Konrad; c. 881 – December 23, 918), called the Younger, was the first non-Carolingian king of East Francia from 911 to 918. He was the first elected king of East Francia and also the first one to be anointed.[1] He was chosen as the king by the rulers of the East Frankish stem duchies after the death of young king Louis the Child. Prior to this election he had ruled the Duchy of Franconia from 906.",
+      "images" : [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/The_King_Conrad_I_enthroned.jpg/170px-The_King_Conrad_I_enthroned.jpg",
+        "https://media1.britannica.com/eb-media/43/12743-004-DDAC2C0D.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/9a/KonradSiegel.jpg"
       ]
     }
   ]
