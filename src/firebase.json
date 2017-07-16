@@ -167,6 +167,83 @@
       ],
       "time" : "1137–1180",
       "image" : "https://s-media-cache-ak0.pinimg.com/originals/47/1b/b1/471bb12eeb90079b51956bae21f620db.jpg"
+    },
+    {
+      "id" : 17,
+      "name" : "Philippe Auguste",
+      "titles" : [
+        "King of France"
+      ],
+      "time" : "1179–1223",
+      "image": "http://s2.e-monsite.com/2010/05/29/04/resize_550_550/Philippe-II.jpg"
+    },
+    {
+      "id" : 18,
+      "name" : "Louis VIII, le Lion",
+      "titles" : [
+        "King of France"
+      ],
+      "time" : "1223–1226",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/1/18/Louis8.jpg"
+     },
+    {
+      "id" : 19,
+      "name" : "Louis IX",
+      "titles" : [
+        "King of France"
+      ],
+      "time" : "1226–1270",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/b/bf/Louis_IX_ou_Saint-Louis.jpg"
+    },
+    {
+      "id" : 20,
+      "name" : "Philippe III, le Hardi",
+      "titles" : [
+        "King of France"
+      ],
+      "time" : "1270–1285",
+      "image" :"https://upload.wikimedia.org/wikipedia/commons/b/b0/Miniature_Philippe_III_Courronement.jpg"
+    },
+    {
+      "id" :21,
+      "name" : "Philippe IV, le Bel",
+      "titles" : [
+        "King of France",
+        "King of Navarre"
+      ],
+      "time" : "1285–1314",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/d/d1/Filippoilbello.gif"
+    },
+    {
+      "id" : 22,
+      "name" : "Louis X",
+      "titles" : [
+        "King of France",
+        "King of Navarre",
+        "Count of Champagne"
+      ],
+      "time" : "1314–1316",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/2/2c/Louis_X_of_France2.jpg"
+    },
+    {
+      "id" : 23,
+      "name" : "Philippe V, le Long",
+      "titles" : [
+        "King of France",
+        "King of Navarre"
+      ],
+      "time" : "1316–1322",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/3/39/Philip_V_of_France.jpg"
+    },
+    {
+      "id" :24,
+      "name" : "Charles IV, le Bel",
+      "titles" : [
+        "King of France",
+        "King of Navarre"
+      ],
+      "time" : "1322–1328",
+      "image" : "https://en.wikipedia.org/wiki/Charles_IV_of_France#/media/File:Charles_IV_Le_Bel.jpg"
     }
   ],
   "detailed":[
@@ -346,6 +423,87 @@
         "https://s-media-cache-ak0.pinimg.com/originals/47/1b/b1/471bb12eeb90079b51956bae21f620db.jpg",
         "http://skepticism-images.s3-website-us-east-1.amazonaws.com/images/jreviews/Louis-VII-Engraving.jpg",
         "https://s-media-cache-ak0.pinimg.com/originals/7d/3f/94/7d3f947f1e23dd49b21627a09f785945.jpg"
+      ]
+    },
+    {
+      "id" : 17,
+      "desc" : "Philip II, known as Philip Augustus (French: Philippe Auguste; 21 August 1165 – 14 July 1223), was King of France from 1180 to 1223, a member of the House of Capet. Philip's predecessors had been known as kings of the Franks, but from 1190 onward, Philip became the first French monarch to style himself king of France. The son of King Louis VII and his third wife, Adèle of Champagne, he was originally nicknamed Dieudonné 'God-given' because he was the first son of Louis VII, born late in his father's life.[1] Philip was given the nickname 'Augustus' by the chronicler Rigord for having extended the Crown lands of France so remarkably. After a twelve-year struggle with the Plantagenet dynasty in the Anglo-French War of 1202–14, Philip broke up the large Angevin Empire presided over by the crown of England and defeated a coalition of his rivals (German, Flemish and English) at the Battle of Bouvines in 1214. This victory would have a lasting impact on western European politics: the authority of the French king became unchallenged, while the English King John was forced by his barons to sign Magna Carta and deal with a rebellion against him aided by Philip, the First Barons' War. The military actions surrounding the Albigensian Crusade helped prepare the expansion of France southward. Philip did not participate directly in these actions, but he allowed his vassals and knights to help carry it out. Philip transformed France from a small feudal state into the most prosperous and powerful country in Europe. He checked the power of the nobles and helped the towns to free themselves from seigniorial authority, granting privileges and liberties to the emergent bourgeoisie. He built a great wall around Paris ('the Wall of Philip II Augustus'), re-organized the French government and brought financial stability to his country.",
+      "images" : [
+        "https://upload.wikimedia.org/wikipedia/commons/3/3e/The_coronation_of_Philippe_II_Auguste_in_the_presence_of_Henry_II_of_England.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/dc/Sceau_de_Philippe_Auguste._-_Archives_Nationales_-_SC-D157.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Philippe_II%27s_victory_at_Bouvines.jpg",
+        "https://en.wikipedia.org/wiki/File:Philip_II,_King_of_France,_in_a_19th-century_portrait_by_Louis-Félix_Amiel.jpg"
+      ]
+    },
+    {
+      "id" : 18,
+      "desc" : "Louis VIII, byname Louis The Lion, or The Lion-heart, French Louis Le Lion, or Louis Coeur-de-lion (born Sept. 5, 1187, Paris—died Nov. 8, 1226, Montpensier, Auvergne, Fr.), Capetian king of France from 1223 who spent most of his short reign establishing royal power in Poitou and Languedoc. On May 23, 1200, Louis married Blanche of Castile, daughter of Alfonso VIII of Castile, who effectively acted as regent after Louis’s death. In 1212 Louis seized Saint-Omer and Aire to prevent a powerful Flanders from being on the flank of his county of Artois. In 1216, after the barons rebelling against King John of England had offered the English throne to Louis in return for his aid, Louis went to England to aid the rebels. Initially he was successful, but eventually he was defeated at sea and suffered defections. In 1217, when peace was concluded at Kingston, Louis was secretly paid 10,000 marks. In 1224, now king, he seized Poitou and, in 1226, he launched a successful crusade against the Albigensian heretics, capturing the major fortress of Avignon before returning toward Paris because of illness. Louis was the first Capetian to grant appanages on a large scale and to have a reversion clause that made alienation of royal property more difficult. Louis also developed other particular rights for the kingship, such as the concept that fealty was sworn not only to the individual king but also to the kingship. His eldest son, Louis IX (afterward St. Louis), peacefully succeeded him while his other sons received appanages.",
+      "images" :[
+        "http://www.house-empire.com/images/Louis8lelion.jpg",
+        "http://www.france-pittoresque.com/IMG/jpg/Louis-VIII.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Coronation_of_Louis_VIII_and_Blanche_of_Castille_1223.jpg/200px-Coronation_of_Louis_VIII_and_Blanche_of_Castille_1223.jpg",
+        "https://media1.britannica.com/eb-media/00/133400-004-0F25503F.jpg"
+      ]
+    },
+    {
+      "id" : 19,
+      "decs" : "Louis IX (25 April 1214 – 25 August 1270), commonly known as Saint Louis, was King of France and a canonized saint. Louis was crowned in Reims at the age of 12, following the death of his father Louis VIII the Lion, although his mother, Blanche of Castile, ruled the kingdom until he reached maturity. During Louis's childhood, Blanche dealt with the opposition of rebellious vassals and put an end to the Albigensian crusade which had started 20 years earlier. As an adult, Louis IX faced recurring conflicts with some of the most powerful nobles, such as Hugh X of Lusignan and Peter of Dreux. Simultaneously, Henry III of England tried to restore his continental possessions, but was defeated at the battle of Taillebourg. His reign saw the annexation of several provinces, notably Normandy, Maine and Provence. Louis IX was a reformer and developed French royal justice, in which the king is the supreme judge to whom anyone is able to appeal to seek the amendment of a judgment. He banned trials by ordeal, tried to prevent the private wars that were plaguing the country and introduced the presumption of innocence in criminal procedure. To enforce the correct application of this new legal system, Louis IX created provosts and bailiffs. According to his vow made after a serious illness, and confirmed after a miraculous cure, Louis IX took an active part in the Seventh and Eighth Crusade in which he died from dysentery. He was succeeded by his son Philip III. Louis's actions were inspired by Christian values and Catholic devotion. He decided to punish blasphemy, gambling, interest-bearing loans and prostitution, and bought presumed relics of Christ for which he built the Sainte-Chapelle. He also expanded the scope of the Inquisition and ordered the burning of Talmuds. He is the only canonized king of France, and there are consequently many places named after him.",
+      "images" : [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Louis-ix.jpg/200px-Louis-ix.jpg",
+        "https://i.ytimg.com/vi/lq5upm_FeVA/maxresdefault.jpg",
+        "https://thecatholicgentleman.files.wordpress.com/2013/08/louis-ix.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/2d/El_Greco_-_Saint_Louis_roi_de_France_et_un_page_02.jpg",
+        "http://3.bp.blogspot.com/-2JkTfSvr-tk/Vdx4TOPBbHI/AAAAAAAAsQQ/5G5syaY8oNk/s640/z13.jpg"
+      ]
+    },
+    {
+      "id" : 20,
+      "desc" : "Philip III (30 April 1245 – 5 October 1285), called the Bold (French: le Hardi),[1] was King of France from 1270 to 1285, a member of the House of Capet. Philip proved indecisive, soft in nature, and timid. The strong personalities of his parents apparently crushed him, and policies of his father dominated him. People called him 'the Bold' on the basis of his abilities in combat and on horseback and not on the basis of his political or personal character. He was pious but not cultivated. He followed the suggestions of others, first of Pierre de La Broce and then of his uncle King Charles I of Naples, Sicily, and Albania. His father, Louis IX, died in Tunis during the Eighth Crusade. Philip, who was accompanying him, came back to France to claim his throne and was anointed at Reims in 1271. Philip made numerous territorial acquisitions during his reign, the most notable being the County of Toulouse which was annexed to the Crown lands of France in 1271. Following the Sicilian Vespers, a rebellion triggered by Peter III of Aragon against Philip's uncle Charles I of Naples, Philip led an unsuccessful Aragonese Crusade in support of his uncle. Philip was forced to retreat and died from dysentry in Perpignan in 1285. He was succeeded by his son Philip the Fair.",
+      "images" : [
+        "http://www.alex-bernardini.fr/histoire/images/philippe-III-le-Hardi.jpg",
+        "http://photos.geni.com/p13/2d/b1/3b/ba/53444838db7c5cab/felipe_iii_de_francia_medium.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b0/Miniature_Philippe_III_Courronement.jpg",
+        "https://s-media-cache-ak0.pinimg.com/236x/63/ed/77/63ed774cfd10391bef7c1ccaa508cc4c--philippe-auguste-les-rois.jpg"
+      ]
+    },
+    {
+      "id" : 21,
+      "desc": "Philip IV (April–June 1268 – 29 November 1314), called the Fair (French: Philippe le Bel, Basque: Filipe Ederra) or the Iron King (French: le Roi de fer), was King of France from 1285 until his death. By virtue of his marriage with Joan I of Navarre, he was also Philip I, King of Navarre from 1284 to 1305. He also briefly ruled the County of Champagne in right of his wife (jure uxoris) although after his accession as king in 1285 the county remained under the sole governance of his wife until 1305, and then fell to his son, Louis until 1314. The handsome prince was nicknamed 'le Bel', or the Fair, but his inflexible personality gained him other epithets, from friend and foe alike. His fierce opponent Bernard Saisset, bishop of Pamiers, said of him, 'He is neither man nor beast. He is a statue.'[1] Philip relied on skillful civil servants, such as Guillaume de Nogaret and Enguerrand de Marigny, to govern the kingdom rather than on his barons. Philip and his advisors were instrumental in the transformation of France from a feudal country to a centralized state. Philip, who sought an uncontested monarchy, compelled his vassals by wars and restricted feudal usages. His ambitions made him highly influential in European affairs. His goal was to place his relatives on foreign thrones. Princes from his house ruled in Naples and Hungary. He tried and failed to make another relative the Holy Roman Emperor. He began the long advance of France eastward by taking control of scattered fiefs.[2] The most notable conflicts of Philip's reign include a dispute with Edward I of England, who was also his vassal as the Duke of Aquitaine, and a war with the County of Flanders, which gained temporary autonomy following Philip’s defeat at the Battle of the Golden Spurs (1302). To further strengthen the monarchy, he tried to control the French clergy and entered in conflict with Pope Boniface VIII. This conflict led to the transfer of the papal court to the enclave of Avignon in 1309. In 1306, Philip the Fair expelled the Jews from France and, in 1307, Friday 13th, he annihilated the order of the Knights Templar. Philip was in debt to both groups and saw them as a 'state within the state'. His final year saw a scandal amongst the royal family, known as the Tour de Nesle Affair, during which the three daughters-in-law of Philip were accused of adultery. His three sons were successively kings of France, Louis X, Philip V, and Charles IV.",
+      "images" : [
+        "http://blog.templarhistory.com/wp-content/uploads/philip.jpg",
+        "https://s-media-cache-ak0.pinimg.com/originals/81/58/53/815853c4a0d61173025094f183325c1a.jpg",
+        "http://c8.alamy.com/comp/FWEGM7/philip-iv-philippe-iv-le-bel-philipp-iv-1268-1314-called-the-fair-FWEGM7.jpg",
+        "https://s-media-cache-ak0.pinimg.com/236x/86/3c/ea/863cea0e59e0b3075e49401d4ea1044c--les-rois-la-france.jpg"
+      ]
+    },
+    {
+      "id" : 22,
+      "desc" : "Louis X (4 October 1289 – 5 June 1316), called the Quarreler, the Headstrong, or the Stubborn (French: le Hutin), was a monarch of the House of Capet who ruled as King of Navarre (as Louis I Basque: Luis I.a Nafarroakoa) and Count of Champagne from 1305 and as King of France from 1314 until his death. Louis was the eldest son of Philip IV of France and Joan I of Navarre. His short reign as king of France was marked by the hostility of the nobility against fiscal and centralization reforms initiated by Enguerrand de Marigny, the Grand Chamberlain of France, under the reign of his father. Louis' uncle—Charles of Valois, leader of the feudalist party—managed to convince the king to execute Enguerrand de Marigny. Louis allowed serfs to buy their freedom (which was the first step towards the abolition of serfdom), abolished slavery, and readmitted French Jews into the kingdom. In 1305, Louis had married Margaret of Burgundy, with whom he had Joan II of Navarre. Margaret was later convicted of adultery and died in prison, possibly murdered by strangulation. In 1315, Louis married Clementia of Hungary, who gave birth to John I of France a few months after the king's death. John's untimely death led to a disputed succession.",
+      "images" : [
+        "http://www.nndb.com/people/987/000093708/louis-x-1-sized.jpg",
+        "https://s3-us-west-2.amazonaws.com/find-a-grave-prod/photos/2005/41/21092_110817987617.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Louis_X_le_Hutin.jpg/440px-Louis_X_le_Hutin.jpg",
+        "http://etc.usf.edu/clipart/1200/1234/louis10_1_lg.gif"
+      ]
+    },
+    {
+      "id" : 23,
+      "desc" : "Philip V (c. 1293 – 3 January 1322), the Tall (French: Philippe le Long), was King of France and King of Navarre (as Philip II). He reigned from 1316 to his death and was the penultimate monarch of the main line of the House of Capet. As the second son of king Philip IV, he was entitled to an appanage, the County of Poitiers, while his elder brother, Louis X, inherited the throne in 1314. When Louis died in 1316, he left a daughter and a pregnant wife, Clementia of Hungary. Philip the Tall successfully claimed the regency. Queen Clementia gave birth to a boy, who was proclaimed king as John I, but the infant king lived only for five days. At the death of his nephew, Philip immediately had himself crowned at Reims. However, his legitimacy was challenged by the party of Louis X’s daughter Joan. Philip V successfully contested her claims for a number of reasons, including her youth, doubts regarding her paternity (her mother was involved in the Tour de Nesle Affair), and the Estates General's determination that women should be excluded from the line of succession to the French throne. The succession of Philip, instead of Joan, set the precedent for the French royal succession that would be famously known as the Salic law. Philip V restored somewhat good relations with the County of Flanders, which had entered into open rebellion during his father’s rule, but simultaneously his relations with Edward II of England worsened as the English king, who was also Duke of Guyenne, initially refused to pay him homage. A spontaneous popular crusade started in Normandy in 1320 aiming to liberate Iberia from the Moors. Instead the angry populace marched to the south attacking castles, royal officials, priests, lepers, and Jews. Philip V engaged in a series of domestic reforms intended to improve the management of the kingdom. These reforms included the creation of an independent Court of Finances, the standardization of weights and measures, and the establishment of a single currency. Philip V died from dysentery in 1322 without a male heir and was succeeded by his younger brother Charles IV.",
+      "images" : [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Filip5_korunovace.jpg/220px-Filip5_korunovace.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/82/Philippe_V_le_Long.jpg",
+        "https://www.altesses.eu/imgmax/611b7bad62.jpg",
+        "http://www.histoireeurope.fr/img/Philippe%20VI%20de%20Valois_1.PNG" 
+      ]
+    },
+    {
+      "id" : 24,
+      "desc" : "Charles IV (Clermont 18/19 June 1294 – Vincennes 1 February 1328), called the Fair (le Bel) in France and the Bald (el Calvo) in Navarre, was the last direct Capetian King of France and King of Navarre (as Charles I) from 1322 to his death. Charles was the third son of Philip IV; like his father, he was known as 'the fair' or 'the handsome'.[1][2] Beginning in 1323 Charles was confronted with a peasant revolt in Flanders, and in 1324 he made an unsuccessful bid for the elective German monarchy. As duke of Guyenne, King Edward II of England was a vassal of Charles, but he was reluctant to pay homage to another king. In retaliation, Charles conquered the Duchy of Guyenne in a conflict known as the War of Saint-Sardos (1324). In a peace agreement, Edward II accepted to swear allegiance to Charles and to pay a fine. In exchange, Guyenne was returned to Edward but with a much-reduced territory. When Charles IV died without male heir, the senior lineage of the House of Capet ended. He was succeeded by his cousin Philip of Valois, but the contested legitimacy was one factor of the Hundred Years' War.",
+      "images" : [
+        "https://upload.wikimedia.org/wikipedia/commons/9/93/Charles_IV_Le_Bel.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/01/Mariage_de_Charles_IV_le_Bel_et_de_Marie_de_Luxembourg.jpg",
+        "http://www.nndb.com/people/971/000093692/charles-iv-france-1-sized.jpg",
+        "https://s-media-cache-ak0.pinimg.com/originals/a6/08/4f/a6084f6b7bdc2f6caeba024bd716f77c.jpg"
       ]
     }
   ]
