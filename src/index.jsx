@@ -12,7 +12,7 @@ class App extends React.Component {
         <MuiThemeProvider>
           <main>
             <Route exact path='/' component={Main} />
-            <Route path='/view/:id' component={Person} />
+            <Route path='/view/:id' component={Person} /> 
           </main>
         </MuiThemeProvider>
       </Router>
